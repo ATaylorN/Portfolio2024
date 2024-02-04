@@ -1,20 +1,23 @@
 <template>
   <div id="app">
-    <h1> Amanda Taylor <br>
-    Junior Software Developer
-    </h1>
+    <div class="amanda">
+    <h1 class="name">Amanda Taylor</h1>
+    <p class="about">Junior Software  *  Veteran  *  Artist  *  Sci-fi Enthusiast </p>
+    </div>
     <HeaderSection/>
-    <h2>Filler Section </h2>
+    <FooterSection/>
   </div>
 </template>
 
 <script>
 import HeaderSection from './components/HeaderSection.vue'
+import FooterSection from './components/FooterSection.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderSection,
+    FooterSection
   }
 }
 </script>
@@ -24,14 +27,24 @@ body{
   margin: 0;
   padding: 0;
 }
-h1{
-  font-family: 'Roboto Condensed', sans-serif;
-  padding: 200px;
-  text-align: center;
-  background-color: #384C52;
-  margin: 0;
+.amanda{
+  background: rgb(158,181,188);
+  background: radial-gradient(circle, rgba(158,181,188,1) 0%, rgba(56,76,82,1) 73%, rgba(11,15,17,1) 100%);
+  padding-top: 15%;
+  padding-bottom: 15%;
 }
-h2{
-  padding: 2000px;
+.name{
+  text-align: center;
+  font-family: 'Share Tech Mono';
+  font-size: 6em;
+  margin: 0;
+  color: #ECEAE4;
+}
+.about {
+  text-align: center;
+  margin: 0;
+  font-family: 'Share Tech Mono';
+  font-size: 1.4rem;
+  color: #ECEAE4;
 }
 </style>

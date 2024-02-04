@@ -1,14 +1,26 @@
 <template>
   <div>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Coding Projects</a></li>
-      <li><a href="#">Data Analytics & Python</a></li>
-      <li><a href="#">Marketing</a></li>
-      <li><a href="#">Graphite Portraits</a></li>
-      <li><a href="#">Blog</a></li>
-    </ul>
+ <nav class="navbar navbar-expand-lg sticky-top" id="menu">
+  <div class="container-fluid justify-content-end">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+      <ul class="navbar-nav ">
+        <li class="nav-item "><a class="nav-link" href="#">CODING PROJECTS</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">DATA ANALYTICS & PYTHON</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">MARKETING</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">GRAPHITE PORTRAITS</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
+      </ul>
+    </div>
+  
   </div>
+</nav>
+
+  </div>
+
 </template>
 
 <script>
@@ -22,31 +34,18 @@ export default {
 
 
 <style scoped>
-
-ul{
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
-  background-color: #ECEAE4;
-  position: fixed;
-  top:0;
-  width: 100%;
+.nav-link{
+  display: flex;
+  justify-content: end;
+  font-family: 'Share Tech Mono';
+  font-weight: 600;
 }
-li{ 
-  display: inline;
-  float: left;
-}
-a{
-  display: block;
-  color: #384C52;
-  padding: 18px 16px;
-  background-color: #ECEAE4;
-  text-decoration: none;
-  font-family: 'Share Tech Mono', monospace;
-  font-size: 20px;
-}
-a:hover{
+.nav-link:hover {
   background-color: #9EB5BC;
+}
+#menu{
+  background-color: #ECEAE4;
+  border: none;
+  margin: 0;
 }
 </style>
