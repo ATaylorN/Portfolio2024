@@ -272,6 +272,8 @@ export default {
 <style scoped>
 .card{
   margin: 0 5rem;
+  background-color: rgba(255, 255, 255, 0.692);
+  box-shadow: 0px 0px 20px black;
 }
 .card-header{
   background-color:#384C52;
@@ -280,6 +282,7 @@ export default {
 .card-header a{
   color: white;
   font-family: 'Share Tech Mono', monospace;
+  font-size: 20px;
 }
 .card-header:hover{
   background-color: #9EB5BC;
