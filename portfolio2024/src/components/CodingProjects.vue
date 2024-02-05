@@ -214,9 +214,10 @@ a:hover{
 .projects-section{
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 3rem;
     justify-content: center;
     margin-bottom: 4rem;
+    padding: 0 1.5rem;
 }
 .card-body img{
     width: 30px;

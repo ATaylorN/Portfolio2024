@@ -80,6 +80,7 @@
 
     <section class="menus">
       <div id="accordion">
+        <!-- coding -->
         <div class="card">
           <div class="card-header">
           <a class="btn" data-bs-toggle="collapse" href="#collapseOne">CODING PROJECTS</a>
@@ -111,7 +112,7 @@
         </div>
         </div>
       </div>
-
+<!-- data analytics -->
   <div class="card">
     <div class="card-header">
       <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">DATA ANALYTICS & PYTHON</a>
@@ -133,7 +134,7 @@
           </div>
           <div class="desc">
           <p>Lorem ipsum..</p>
-          <button>View More</button>
+          <a href="data-analytics"><button>View More</button></a>
           </div>
           <div class="photo">
           <img class="preview" src="@/assets/coding/mealplannerpreview.png">
@@ -141,7 +142,7 @@
       </div>
     </div>
   </div>
-
+<!-- marketing -->
   <div class="card">
     <div class="card-header">
       <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">MARKETING</a>
@@ -150,28 +151,26 @@
       <div class="card-body">
        <div class="tools">
             <h4>Tools:</h4>
-              <img src="@/assets/icons/bootstrap.png">
-              <img src="@/assets/icons/intellij.png">
-              <img src="@/assets/icons/javascript.png">
-              <img src="@/assets/icons/java.png">
-              <img src="@/assets/icons/html.png">
-              <img src="@/assets/icons/figma.png">
-              <img src="@/assets/icons/vue.png">
-              <img src="@/assets/icons/vscode.png">
-              <img src="@/assets/icons/css.png">
-              <img src="@/assets/icons/pgadmin.png">
+              <img src="@/assets/icons/instagram.png">
+              <img src="@/assets/icons/canva.png">
+              <img src="@/assets/icons/facebook.png">
+              <img src="@/assets/icons/linkedin.png">
+              <img src="@/assets/icons/airtable.png">
+              <img src="@/assets/icons/mailchimp.png">
           </div>
           <div class="desc">
-          <p>Lorem ipsum..</p>
+          <p>Individual Realtors and Real Estate Teams need a ton of marketing to get in front of potential home-seller 
+            and home-buying clients and stay top of mind. This can mean numerous social media campaigns, listing presentations, 
+            events, brochures, email campaigns, and brochures (just to name a few!)</p>
           <button>View More</button>
           </div>
           <div class="photo">
-          <img class="preview" src="@/assets/coding/mealplannerpreview.png">
+          <img class="preview" src="@/assets/marketing/realestatepreview.png">
           </div>
       </div>
     </div>
   </div>
-
+<!-- portraits -->
   <div class="card">
     <div class="card-header">
       <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">GRAPHITE PORTRAITS</a>
@@ -180,16 +179,8 @@
       <div class="card-body">
        <div class="tools">
             <h4>Tools:</h4>
-              <img src="@/assets/icons/bootstrap.png">
-              <img src="@/assets/icons/intellij.png">
-              <img src="@/assets/icons/javascript.png">
-              <img src="@/assets/icons/java.png">
-              <img src="@/assets/icons/html.png">
-              <img src="@/assets/icons/figma.png">
-              <img src="@/assets/icons/vue.png">
-              <img src="@/assets/icons/vscode.png">
-              <img src="@/assets/icons/css.png">
-              <img src="@/assets/icons/pgadmin.png">
+              <img src="@/assets/icons/instagram.png">
+              <img src="@/assets/icons/facebook.png">
           </div>
           <div class="desc">
           <p>Using primarily graphite pencil with the occasional acrylic paint for a pop of color, each portrait 
@@ -198,12 +189,12 @@
           <a href="/portraits"><button>View More</button></a>
           </div>
           <div class="photo">
-          <img class="preview" src="@/assets/coding/mealplannerpreview.png">
+          <img class="preview" src="@/assets/portraits/chester_bennington.jpg">
           </div>
       </div>
     </div>
   </div>
-
+<!-- blog -->
   <div class="card">
     <div class="card-header">
       <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFive">BLOG</a>

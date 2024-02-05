@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Portraits from '../views/PortraitsView.vue'
 import Coding from '../views/CodingView.vue'
+import DataProjects from '../views/DataView.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/coding-projects',
     name: 'coding-projects',
     component: Coding
+  },
+  {
+    path: '/data-analytics',
+    name: 'data-analytics',
+    component: DataProjects
   }
   // {
   //   path: '/about',
