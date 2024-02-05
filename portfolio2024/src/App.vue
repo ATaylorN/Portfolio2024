@@ -43,8 +43,9 @@
     <img class="timeline" src="./assets/timeline.png" alt="career timeline">
 
     <section class="skills">
-      <h3>Technical Skills Acquired</h3>
-      <div class="list1"></div>
+      <h2>Technical Skills Acquired</h2>
+      <div class="lists">
+      <div class="list">
         <li>Java</li>
         <li>Python</li>
         <li>HTML</li>
@@ -52,23 +53,28 @@
         <li>Bootstrap</li>
         <li>JavaScript</li>
         <li>Vue.js</li>
+        <li>Integration Testing (Postman)</li>
+        
+      </div>
+
+      <div class="list">
         <li>Git</li>
-      <div class="list2">
         <li>PowerBi</li>
         <li>IntelliJ</li>
         <li>Figma</li>
         <li>PostgreSQL</li>
         <li>Unit Testing (JUnit)</li>
         <li>E/R Diagrams</li>
-        <li>Integration Testing (Postman)</li>
         <li>SpringBoot</li>
       </div>
+
       <div class="list2">
         <li>Tableau</li>
         <li>Agile Methodologies</li>
         <li>Microsoft Excel</li>
         <li>Data Analytics</li>
         <li>Responsive Web Design</li>
+      </div>
       </div>
     </section>
 
@@ -228,10 +234,6 @@
 
     </section>
 
-    <section class="filler">
-      filler
-    </section>
-
     <FooterSection/>
   </main>
 </template>
@@ -270,6 +272,41 @@ export default {
 </script>
 
 <style scoped>
+.menus{
+  margin-bottom: 4rem;
+}
+.skills{
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 0 3rem 0;
+  margin-bottom: 4rem;
+  background-color: white;
+}
+.skills h2{
+  text-align: center;
+  padding: 1.5rem;
+  font-family: 'Share Tech Mono', monospace;
+  color: #384C52;
+  font-size: 36px;
+}
+.lists{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.list{
+  padding: 1rem 4rem 1.5rem 0;
+  margin-right: 50px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  border-right: 2px solid #9EB5BC;
+}
+.list2{
+  padding: 1.5rem 4rem 2rem 0;
+  margin-right: 50px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+}
 .card{
   margin: 0 5rem;
   background-color: rgba(255, 255, 255, 0.692);
@@ -330,7 +367,7 @@ export default {
   width: 40px;
 }
 .timeline{
-  max-height: 250px;
+  max-height: 270px;
   background-color: #9EB5BC;
   width: 100%;
   padding: 0 10rem;
