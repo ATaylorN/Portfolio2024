@@ -9,7 +9,7 @@
     <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
       <ul class="navbar-nav ">
         <li class="nav-item "><a class="nav-link" href="/">HOME</a></li>
-        <li class="nav-item "><a class="nav-link" href="#">CODING PROJECTS</a></li>
+        <li class="nav-item "><a class="nav-link" href="/coding-projects">CODING PROJECTS</a></li>
         <li class="nav-item"><a class="nav-link" href="#">DATA ANALYTICS & PYTHON</a></li>
         <li class="nav-item"><a class="nav-link" href="#">MARKETING</a></li>
         <li class="nav-item"><a class="nav-link" href="/portraits">GRAPHITE PORTRAITS</a></li>

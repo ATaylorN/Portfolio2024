@@ -100,8 +100,10 @@
               <img src="@/assets/icons/pgadmin.png">
           </div>
           <div class="desc">
-          <p>Lorem ipsum..</p>
-          <button>View More</button>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quo vitae architecto, 
+            eligendi consectetur nihil recusandae asperiores voluptas earum nisi. Ab ex expedita voluptatem 
+            dolorum accusamus excepturi reiciendis. Placeat, cupiditate.</p>
+          <a href="/coding-projects"><button>View More</button></a>
           </div>
           <div class="photo">
           <img class="preview" src="@/assets/coding/mealplannerpreview.png">
@@ -190,7 +192,9 @@
               <img src="@/assets/icons/pgadmin.png">
           </div>
           <div class="desc">
-          <p>Lorem ipsum..</p>
+          <p>Using primarily graphite pencil with the occasional acrylic paint for a pop of color, each portrait 
+            takes roughly 40+ hours. I've drawn characters from several of my favorite shows, movies, video games, 
+            along with the occasional commission.</p>
           <a href="/portraits"><button>View More</button></a>
           </div>
           <div class="photo">
@@ -333,6 +337,9 @@ export default {
 }
 .desc{
   grid-area: text;
+  max-width: 800px;
+  font-family: 'Roboto Condensed';
+  font-size: 18px;
 }
 .desc button{
   font-family: 'Share Tech Mono', monospace;
@@ -350,7 +357,6 @@ export default {
 }
 .photo img{
   width: 20rem;
-  
 }
 .tools{
   grid-area: tools;
