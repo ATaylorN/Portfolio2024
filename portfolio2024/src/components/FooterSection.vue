@@ -1,17 +1,17 @@
 <template>
-  <div class="footer-section">
+  <footer class="footer-section">
     
     <!-- Left Section -->
-    <div class="left">
+    <section class="left">
         <h2 class="contact-me">Stay In Touch</h2>
         <a class="linkedin" href="https://www.linkedin.com/in/amanda-taylor1/"> <img src="../assets/icons/linkedin.png" alt="LinkedIn Logo"></a>
         <p class="li-text">LinkedIn: amanda-taylor1</p>
         <a class="github" href="https://github.com/ATaylorN"><img src="../assets/icons/github.png" alt="GitHub Logo"></a>
         <p class="git-text">GitHub: ATaylorN</p>    
-    </div>
+    </section>
 
     <!-- Right Section -->
-    <div class="right">
+    <section class="right">
         <form ref="form" @submit.prevent="sendEmail" class="form">
             <input type="text" class="name" placeholder="Name" name="user_name" required>
             <input type="email"  class="email" placeholder="Email" name="user_email" required>
@@ -19,9 +19,9 @@
             <input type="submit" value="SEND" class="send">
             </form>
         <span class="status" v-show="showStatus=true">{{statusMessage}}</span> 
-    </div>
+    </section>
 
-  </div>
+  </footer>
 </template>
 
 <script>
@@ -96,7 +96,7 @@ form input {
     width: 25rem;
 }
 form textarea{
-    font-family: 'Roboto Condensed';
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 18px;
     width: 25rem;
 }
@@ -108,6 +108,15 @@ form textarea{
     border: none;
     width: 80px;
     border-radius: 10px;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+.status{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 24px;
+}
+.right{
+    text-align: center;
 }
 @media (max-width: 600px){
 .footer-section {

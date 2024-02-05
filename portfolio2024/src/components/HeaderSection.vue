@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <header>
  <nav class="navbar navbar-expand-lg sticky-top" id="menu">
   <div class="container-fluid justify-content-end">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -8,6 +8,7 @@
     
     <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
       <ul class="navbar-nav ">
+        <li class="nav-item "><a class="nav-link" href="#">HOME</a></li>
         <li class="nav-item "><a class="nav-link" href="#">CODING PROJECTS</a></li>
         <li class="nav-item"><a class="nav-link" href="#">DATA ANALYTICS & PYTHON</a></li>
         <li class="nav-item"><a class="nav-link" href="#">MARKETING</a></li>
@@ -19,16 +20,13 @@
   </div>
 </nav>
 
-  </div>
+  </header>
 
 </template>
 
 <script>
 export default {
   name: 'HeaderSection',
-  props: {
-    
-  }
 }
 </script>
 
@@ -37,7 +35,7 @@ export default {
 .nav-link{
   display: flex;
   justify-content: end;
-  font-family: 'Share Tech Mono';
+  font-family: 'Share Tech Mono', monospace;
   font-weight: 600;
 }
 .nav-link:hover {
