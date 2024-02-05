@@ -20,8 +20,8 @@
            idea to reality to be incredibly rewarding and I have a passion for learning.</p>
         </div>
       <span class="icons">
-        <a href=""><img src="./assets/icons/linkedin.png"></a>
-        <a href=""><img src="./assets/icons/github.png"></a>
+        <a href="https://www.linkedin.com/in/amanda-taylor1/"><img src="./assets/icons/linkedin.png"></a>
+        <a href="https://github.com/ATaylorN"><img src="./assets/icons/github.png"></a>
         <!-- Email Button Functions: -->
         <div class="dropdown">
         <button type="button" data-bs-toggle="dropdown"><img src="./assets/icons/email.png" alt="Email: amandanagies@gmail.com"> </button>
@@ -473,6 +473,7 @@ body{
 #app{
   background-image: url('./assets/background.jpg');
   background-repeat: round;
+  background-attachment: fixed;
 }
 .filler{
   height: 500px;

@@ -28,6 +28,7 @@
 import emailjs from '@emailjs/browser';
 
 export default {
+  name: 'FooterSection',
   data(){
         return{
             showStatus: false,
