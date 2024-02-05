@@ -2,7 +2,7 @@
   <div id="app">
     <div class="amanda">
     <h1 class="name">Amanda Taylor</h1>
-    <p class="about">Junior Software  *  Veteran  *  Artist  *  Sci-fi Enthusiast </p>
+    <p class="about">Junior Software Developer *  Veteran  *  Artist  *  Sci-fi Enthusiast </p>
     </div>
     <HeaderSection/>
     <FooterSection/>
@@ -22,7 +22,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 body{
   margin: 0;
   padding: 0;
