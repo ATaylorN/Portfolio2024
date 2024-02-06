@@ -4,6 +4,7 @@ import HomeView from '../views/HomeView.vue'
 import Portraits from '../views/PortraitsView.vue'
 import Coding from '../views/CodingView.vue'
 import DataProjects from '../views/DataView.vue'
+import Marketing from '../views/MarketingView.vue'
 
 Vue.use(VueRouter)
 
@@ -27,7 +28,13 @@ const routes = [
     path: '/data-analytics',
     name: 'data-analytics',
     component: DataProjects
+  },
+  {
+    path: '/marketing',
+    name: 'marketing-campaign',
+    component: Marketing
   }
+
   // {
   //   path: '/about',
   //   name: 'about',

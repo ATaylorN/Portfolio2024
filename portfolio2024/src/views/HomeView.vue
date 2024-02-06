@@ -162,7 +162,7 @@
           <p>Individual Realtors and Real Estate Teams need a ton of marketing to get in front of potential home-seller 
             and home-buying clients and stay top of mind. This can mean numerous social media campaigns, listing presentations, 
             events, brochures, email campaigns, and brochures (just to name a few!)</p>
-          <button>View More</button>
+          <a href="/marketing"><button>View More</button></a>
           </div>
           <div class="photo">
           <img class="preview" src="@/assets/marketing/realestatepreview.png">
