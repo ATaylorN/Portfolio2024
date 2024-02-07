@@ -233,6 +233,7 @@ a:hover{
     margin-bottom: 0;
     font-size: 28px;
     font-weight: 600;
+    color: #142126;
 }
 .card-text{
     font-family: 'Roboto Condensed', sans-serif;
@@ -241,7 +242,7 @@ a:hover{
 .btn{
     margin-top: 1.5rem;
     margin-bottom: 1rem;
-    background-color: #384C52;
+    background-color: #142126;
     color: white;
 }
 .btn:hover{

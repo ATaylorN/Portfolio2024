@@ -281,7 +281,7 @@ export default {
   text-align: center;
   padding: 1.5rem;
   font-family: 'Share Tech Mono', monospace;
-  color: #384C52;
+  color: #142126;
   font-size: 36px;
 }
 .lists{
@@ -334,7 +334,7 @@ export default {
 }
 .desc button{
   font-family: 'Share Tech Mono', monospace;
-  background-color: #384C52;
+  background-color: #142126;
   color: white;
   border: none;
   padding: 0.5rem 1rem;
@@ -374,12 +374,15 @@ export default {
   padding: 0.5rem 0;
 }
 .send{
-    background-color: #384C52;
+    background-color: #142126;
     border: none;
     width: 80px;
     border-radius: 10px;
     color: white;
     margin-bottom: 0.5rem;
+}
+.send:hover{
+  background-color: #9EB5BC;
 }
 .status{
     font-family: 'Share Tech Mono', monospace;
@@ -422,7 +425,7 @@ body{
 .text h2{
   font-family: 'Share Tech Mono', monospace;
   font-weight: 600;
-  color: #384C52;
+  color: #142126;
   padding-bottom: 1.50rem;
   }
 .text{
@@ -446,6 +449,10 @@ body{
 }
 .icons img{
   height: 60px;
+}
+.icons img:hover{
+  border: 3px solid #9EB5BC;
+  border-radius: 4px;
 }
 .amanda{
   background: rgb(158,181,188);

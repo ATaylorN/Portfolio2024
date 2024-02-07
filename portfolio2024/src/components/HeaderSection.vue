@@ -37,6 +37,7 @@ export default {
   justify-content: end;
   font-family: 'Share Tech Mono', monospace;
   font-weight: 600;
+  color: #384C52;
 }
 .nav-link:hover {
   background-color: #9EB5BC;

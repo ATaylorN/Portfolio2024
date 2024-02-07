@@ -74,12 +74,18 @@ export default {
 .linkedin{
     grid-area: linkedin;
 }
+.linkedin img:hover{
+    border: 2px solid #9EB5BC;
+}
 .li-text{
     grid-area: linkedintext;
     padding: 0.5rem;
 }
 .github{
     grid-area: github;
+}
+.github img:hover{
+    border: 2px solid #9EB5BC;
 }
 .git-text{
     grid-area: githubtext;
@@ -105,12 +111,15 @@ form textarea{
     width: 40px;
 }
 .send{
-    background-color: #384C52;
+    background-color: #142126;
     border: none;
     width: 80px;
     border-radius: 10px;
     color: white;
     margin-bottom: 0.5rem;
+}
+.send:hover{
+    background-color: #9EB5BC;
 }
 .status{
     font-family: 'Share Tech Mono', monospace;

@@ -294,10 +294,10 @@ a:hover{
 .btn{
     margin-top: 1.5rem;
     margin-bottom: 1rem;
-    background-color: #384C52;
+    background-color: #142126;
     color: white;
 }
 .btn:hover{
-    background-color: #9EB5BC;
+    background-color: #ECEAE4;
 }
 </style>

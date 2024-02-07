@@ -52,11 +52,59 @@
         </div>
     </section>
 
+    <section class="general">
+        <div class="gen-left">
+            <h4>CAMPAIGN:</h4>
+            <h2>Status Updates</h2>
+            <h3>FACEBOOK & INSTAGRAM POSTS:</h3>
+            <p>For every single listing that the team would do every year, I created Coming Soon, 
+                ust Listed, Open House (if applicable), and Closed social media posts to get their 
+                listing in front of as many potential buyers as possible.</p>
+                <img src="../assets/marketing/realestatepreview.jpg">
+        </div>
+        <div class="gen-right">
+            <h4>CAMPAIGN:</h4>
+            <h2>Janszen Associates Newsletter</h2>
+            <h3>EMAIL NEWSLETTER:</h3>
+            <p>I created and implemented a monthly email newsletter which included a market update, 
+                highlights from past events, advertisements for upcoming events, and their current 
+                listings.</p>
+            <div class="new-img">
+            <img src="../assets/marketing/newsletter.jpg">
+            <img src="../assets/marketing/newsletter2.jpg">
+            </div>
+        </div>
+    </section>
 
-
-
-    <section class="general"></section>
-    <section class="seminar"></section>
+    <section class="seminar">
+        <div class="sem-left">
+            <img src="../assets/marketing/buysellfbevent.jpg">
+            <img src="../assets/marketing/buysell4.jpg">
+        </div>
+        <div class="sem-right">
+            <h4>CAMPAIGN:</h4>
+            <h2>Buying/Selling Seminar</h2>
+            <p>The real estate market can be confusing so to help, Janszen Associates' hosted a Home 
+                Buying/Selling Seminar. This campaign included social media posts, emails, and physical 
+                signage for the event.</p>
+            <img src="../assets/marketing/buysell1.jpg">
+            <img src="../assets/marketing/buysell2.jpg">
+            <img src="../assets/marketing/buysell3.jpg">
+            <h3>FACEBOOK EVENTS:</h3>
+            <p>To drum up even more interest, I created a public Facebook event for the campaign and sent 
+                invites to our client list, had the agents invite their friends and family, and posted 
+                regularly in the event so that it stayed in peoples' feeds.</p>
+            <h3>EMAIL CAMPAIGNS:</h3>
+            <p>Since not all of their clients are on social media, I did email and post card 
+                (not pictured) campaigns</p>
+            <h3>FACEBOOK & INSTAGRAM POSTS:</h3>
+            <p>For a successful campaign, I created multiple eye-catching graphics to and posted 
+                frequently leading up to the event.</p>
+                <img src="../assets/marketing/buysellsavedate.jpg">
+                <img src="../assets/marketing/buysellsavedate2.jpg">
+                <img src="../assets/marketing/buysellsavedate3.jpg">
+        </div>
+    </section>
 
 
   </section>
@@ -69,15 +117,81 @@ export default {
 </script>
 
 <style scoped>
+.seminar{
+    background-color: #9EB5BC;
+    margin-top: 4rem;
+    padding: 4rem 6rem;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+}
+.sem-left{
+    display: flex;
+    flex-direction: column;
+}
+.sem-left img{
+    max-width:665px;
+}
+.sem-right img{
+    max-width: 250px;
+    padding-right: 10px;
+}
+.sem-right h3{
+    margin-top: 2rem;
+}
+.sem-right h4{
+    margin-top: 1rem;
+}
+.sem-right h2{
+    margin-bottom: 2rem;
+}
+.sem-right p{
+    max-width: 750px;
+}
+.gen-right{
+    padding-top: 1.5rem;
+}
+.gen-right h3{
+    margin-top: 3rem;
+}
+.gen-right p{
+    max-width: 1100px;
+    margin-bottom: 2rem;
+}
+.new-img {
+    display: flex;
+}
+.new-img img{
+    max-width: 550px;
+}
+.general{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    padding-top: 4rem;
+}
+.gen-left img{
+    max-width: 500px;
+}
+.gen-left h3{
+    margin-top: 3rem;
+}
+.gen-left{
+    border: 4px solid #9EB5BC;
+    padding: 3rem 1.5rem 0 1.5rem;
+}
+.gen-left p{
+    max-width: 500px;
+    margin-bottom: 4rem;
+}
 .bottom-left img{
-    width: 550px;
+    width: 570px;
 }
 .bottom-left{
     display: flex;
     margin-top: 2rem;
     gap: 1.5rem;
-    border: 2px solid red;
-    align-items: flex-end;
+    align-items: center;
 }
 .fall-desc p{
     width: 400px;
@@ -86,9 +200,9 @@ export default {
 .fallfest{
     display: flex;
     background-color: #ECEAE4;
-    padding: 4rem 6rem;
     gap: 2rem;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 4rem 10rem;
 }
 .fall-left{
     display: flex;
@@ -96,7 +210,7 @@ export default {
 }
 .fall-left p{
     margin-top: 1rem;
-    max-width: 870px;
+    max-width: 1000px;
 }
 .fall-left img {
     max-width: 1000px;
@@ -112,25 +226,27 @@ export default {
 h3{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 24px;
+    color: #384C52;
 }
 h4{
     font-family: 'Share Tech Mono', monospace;
     margin-bottom: 0;
     font-size: 16px;
     font-weight: 600;
+    color: #384C52;
 }
 h2{
     font-family: 'Share Tech Mono', monospace;
+    color: #142126;
 }
 p{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 18px;
 }
 .all-ways{
-    padding: 2rem 10rem;
     display: flex;
-    margin-bottom: 4rem;
-    
+    margin-bottom: 1.5rem;
+    padding: 4rem 10rem;
 }
 .left p{
     margin-bottom: 1.5rem;
