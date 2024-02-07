@@ -216,7 +216,7 @@
           </div>
           <div class="desc">
           <p>Lorem ipsum..</p>
-          <button>View More</button>
+          <a href="/blog"><button>View More</button></a>
           </div>
           <div class="photo">
           <img class="preview" src="@/assets/coding/mealplannerpreview.png">
@@ -478,8 +478,5 @@ body{
   background-image: url('@/assets/background.jpg');
   background-repeat: round;
   background-attachment: fixed;
-}
-.filler{
-  height: 500px;
 }
 </style>

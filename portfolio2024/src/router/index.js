@@ -5,6 +5,7 @@ import Portraits from '../views/PortraitsView.vue'
 import Coding from '../views/CodingView.vue'
 import DataProjects from '../views/DataView.vue'
 import Marketing from '../views/MarketingView.vue'
+import Blog from '../views/BlogView.vue'
 
 Vue.use(VueRouter)
 
@@ -33,6 +34,11 @@ const routes = [
     path: '/marketing',
     name: 'marketing-campaign',
     component: Marketing
+  },
+  {
+    path: '/blog',
+    name: 'blog-section',
+    component: Blog
   }
 
   // {

@@ -13,7 +13,7 @@
         <li class="nav-item"><a class="nav-link" href="/data-analytics">DATA ANALYTICS & PYTHON</a></li>
         <li class="nav-item"><a class="nav-link" href="/marketing">MARKETING</a></li>
         <li class="nav-item"><a class="nav-link" href="/portraits">GRAPHITE PORTRAITS</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
+        <li class="nav-item"><a class="nav-link" href="/blog">BLOG</a></li>
       </ul>
     </div>
   
