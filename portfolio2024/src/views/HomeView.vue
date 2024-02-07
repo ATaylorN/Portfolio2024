@@ -165,7 +165,7 @@
           <a href="/marketing"><button>View More</button></a>
           </div>
           <div class="photo">
-          <img class="preview" src="@/assets/marketing/realestatepreview.png">
+          <img class="preview" src="@/assets/marketing/realestatepreview.jpg">
           </div>
       </div>
     </div>
