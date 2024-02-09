@@ -1,7 +1,7 @@
 <template>
   <section class="data-page">
 
-    <h2 class="title">Data Analytics & Python</h2>
+    <h2 class="title">Data Analytics & Python - Coming Soon</h2>
 
     <section class="featured">
       <div class="left">

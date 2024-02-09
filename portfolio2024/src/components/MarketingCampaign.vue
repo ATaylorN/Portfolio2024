@@ -106,6 +106,7 @@
         </div>
     </section>
 
+    <section class="to-top"><a href="#"><img src="../assets/scroll-up.png"></a></section>
 
   </section>
 </template>
@@ -117,6 +118,18 @@ export default {
 </script>
 
 <style scoped>
+.to-top{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 1.5rem 2rem;
+}
+.to-top img{
+    max-width: 50px;
+}
+.to-top img:hover{
+    max-width: 60px;
+}
 .seminar{
     background-color: #9EB5BC;
     margin-top: 4rem;

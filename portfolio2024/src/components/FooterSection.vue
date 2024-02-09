@@ -7,7 +7,8 @@
         <a class="linkedin" href="https://www.linkedin.com/in/amanda-taylor1/"> <img src="../assets/icons/linkedin.png" alt="LinkedIn Logo"></a>
         <p class="li-text">LinkedIn: amanda-taylor1</p>
         <a class="github" href="https://github.com/ATaylorN"><img src="../assets/icons/github.png" alt="GitHub Logo"></a>
-        <p class="git-text">GitHub: ATaylorN</p>    
+        <p class="git-text">GitHub: ATaylorN</p>
+        <a class="icons-credit" href="https://icons8.com/"><p>Icons courtesy of Icons8</p></a>
     </section>
 
     <!-- Right Section -->
@@ -52,6 +53,13 @@ export default {
 </script>
 
 <style scoped>
+.icons-credit{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    text-decoration: none;
+    color: #142126;
+    grid-area: credit;
+}
 .footer-section{
     background-color: #ECEAE4;
     padding: 3rem;
@@ -64,7 +72,8 @@ export default {
     font-family: 'Roboto Condensed', sans-serif;
     grid-template-areas: "text text"
                         "linkedin linkedintext"
-                        "github githubtext";
+                        "github githubtext"
+                        "credit credit";
 }
 .contact-me{
     text-align: center;

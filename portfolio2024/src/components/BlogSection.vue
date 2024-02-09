@@ -4,14 +4,30 @@
      <nav class="blog-nav">
         <ul>
             <h2>BLOG</h2>
-            <a href="#"><li>Resources</li></a>
-            <a href="#"><li>Portfolio Updates!</li></a>
-            <a href="#"><li>New Skills Acquired</li></a>
+            <a href="#portfolio"><li>Portfolio Updates!</li></a>
+            <a href="#newskills"><li>New Skills Acquired</li></a>
+            <a href="#resources"><li>Resources</li></a>
         </ul>
     </nav> 
 
     <section class="posts">
-    <article class="resources">
+    <article id="portfolio">
+        <h4>February 9th, 2024</h4>
+        <h2>Portfolio Updates!</h2>
+        <p>"But why tho? I liked your last one!" I get it; I didn't hate the previous version of my portfolio site. But since the time
+            that I had initially created it, I've learned a lot and I wanted a way to showcase that. I probably could've 
+            just thrown in a new section for the new skills, but a couple of weeks ago, I was hit with a spark of inspiration and it led 
+            to me completely redoing my site. 
+        </p>
+    </article>
+
+    <article id="newskills">
+        <h4>February 9th, 2024</h4>
+        <h2>New Skills Acquired</h2>
+        <p></p>
+    </article>
+
+    <article class="resources" id="resources">
         <h4>February 7th, 2024</h4>
         <h2>Resources</h2>
         <p><b>Podcasts:</b><br>
@@ -118,16 +134,16 @@
                 <i class="desc">“A color palette inspiration site that acts as a real world example as to how the colors could be used in your design projects.”</i>
                 <a href="https://huemint.com/"><li>HueMint</li></a> 
                 <i class="desc">“Color palette generator. Huemint uses machine learning to create unique color schemes for your brand, website or graphic”</i>
-
+                <a href="https://icons8.com/"><li>Icons8</li></a> 
+                <i class="desc">“Curated graphics, design apps, and AI tools. The ultimate design kit for creatives and developers.”</i>
                 
             </ul>
             </p>
     </article>
 
-    <article class="port-update"></article>
     </section>
 
-
+    <section class="to-top"><a href="#"><img src="../assets/scroll-up.png"></a></section>
   </section>
 </template>
 
@@ -138,6 +154,18 @@ export default {
 </script>
 
 <style scoped>
+.to-top{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 1.5rem 2rem;
+}
+.to-top img{
+    max-width: 50px;
+}
+.to-top img:hover{
+    max-width: 60px;
+}
 b{
     color: #384C52;
 }
@@ -222,8 +250,5 @@ h2{
 p{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 18px;
-}
-.port-update{
-    height: 1500px;
 }
 </style>
