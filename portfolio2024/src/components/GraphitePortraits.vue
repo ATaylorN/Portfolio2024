@@ -383,13 +383,15 @@ export default {
   data(){
         return{
             showDescription: false,
-            showImage: true
+            showImage: true,
+            id: false
         }
     },
     methods: {
         toggleDescription(){
             this.showDescription = !this.showDescription,
-            this.showImage = !this.showImage
+            this.showImage = !this.showImage,
+            this.id =!this.is
         },
         resetImg(){
             this.showDescription = false;

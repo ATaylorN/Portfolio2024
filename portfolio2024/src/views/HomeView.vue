@@ -339,10 +339,10 @@ export default {
 .desc button:hover{
   background-color: #9EB5BC;
 }
-#photo{
+.photo{
   grid-area: photo;
 }
-#photo img{
+.photo img{
   width: 30rem;
   border-radius: 8px;
 }
@@ -541,5 +541,136 @@ body{
     opacity: 1;
   }
 }
-
+@media only screen and (max-width: 600px){
+.bio{
+  grid-template-areas: "photo"
+                        "text"
+                        "icons";
+  gap: 40px;
+}
+#mainphoto {
+  max-height: 550px;
+}
+#text{
+  width:  300px;
+  padding: 0rem;
+  font-size: 14px;
+}
+.icons{
+  margin-top: -40px;
+  padding-left: 2rem;
+  margin-bottom: 10px;
+}
+.timeline{
+  padding: 0 1rem;
+}
+#text h2{
+  padding-bottom: 0.5rem;
+  font-size: 20px;
+  }
+.skills h2{
+  padding: 0.5rem;
+  font-size: 20px;
+}
+.lists{
+  flex-direction: column;
+}
+.list{
+  padding: 0.5rem 2rem;
+  margin-right: 0;
+  font-size: 14px;
+  border-right: none;
+  border-top: 2px solid #9EB5BC;
+}
+.list2{
+  padding: 0.5rem 2rem 0 2rem;
+  margin-bottom: -30px;
+  margin-right: 0;
+  font-size: 16px;
+  border-right: none;
+  border-top: 2px solid #9EB5BC;
+}
+.skills{
+  margin-bottom: 40px;
+}
+.menus{
+  margin-bottom: 40px;
+}
+.card{
+  margin: 0 1rem;
+}
+.card-body{
+  grid-template-areas: "tools"
+                        "photo"
+                        "text";
+  padding: 20px;
+}
+.photo img{
+  width: 300px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.desc{
+  max-width: 300px;
+  font-size: 14px;
+  margin-top: 0;
+}
+.tools h4{
+  padding-right: 0.5rem;
+}
+.tools img {
+  width: 20px;
+  margin-bottom: 0;
+}
+#name{
+  font-size: 44px;
+}
+#about {
+  font-size: 16px;
+  margin: 0 1.5rem;
+}
+}
+@media only screen and (min-width: 600px) and (max-width: 1200px){
+  .bio{
+  gap: 0.5rem;
+  }
+  #text{
+  padding: 2 rem 1.5rem;
+  width:  20rem;
+  font-size: 16px;
+  }
+  #mainphoto {
+  max-height: 600px;
+}
+.icons{
+  padding: 2rem;
+  gap: 10px;
+  margin-top: -50px;
+}
+.list{
+  padding: 1rem 2rem;
+  margin-right: 20px;
+  font-size: 14px;
+}
+.list2{
+  padding: 1rem 2rem;
+  margin-right: 20px;
+  font-size: 14px;
+}
+.timeline{
+  padding: 0 5rem;
+}
+.card-body{
+  grid-template-areas: "tools" 
+                        "photo"
+                        "text";
+}
+.tools img {
+  width: 35px;
+  margin-bottom: 20px;
+}
+.desc{
+  margin-top: 20px;
+}
+}
 </style>
