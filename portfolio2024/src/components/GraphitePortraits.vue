@@ -405,7 +405,8 @@ export default {
 }
 .portraits-page{
      background-image: url('@/assets/background.jpg');
-  background-repeat: round;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
   padding-bottom: 3rem;
 }

@@ -8,7 +8,7 @@
     <HeaderSection class="sticky-top"/>
 
     <section class="bio">
-      <img class="mainphoto" src="@/assets/mainBioPhoto.png" alt="Various photos Amanda and her work"/>
+      <img class="mainphoto" src="@/assets/mainBioPhoto.jpg" alt="Various photos Amanda and her work"/>
         <div class="text">
         <h2>A Little About Me </h2>
         <p>I'm a software developer, veteran, and artist with over 11 years of customer service and sales
@@ -101,13 +101,13 @@
               <img src="@/assets/icons/pgadmin.png">
           </div>
           <div class="desc">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quo vitae architecto, 
-            eligendi consectetur nihil recusandae asperiores voluptas earum nisi. Ab ex expedita voluptatem 
-            dolorum accusamus excepturi reiciendis. Placeat, cupiditate.</p>
+          <p>Projects include a meal planner application that I worked on with three other Tech Elevator graduates, a flash cards application that
+            I created to study Java, my personal portfolio site, and a library application that I'm currently working on. 
+          </p>
           <a href="/coding-projects"><button>View More</button></a>
           </div>
           <div class="photo">
-          <img class="preview" src="@/assets/coding/mealplannerpreview.png">
+          <img class="preview" src="@/assets/coding/LandingPage.png">
           </div>
         </div>
         </div>
@@ -137,7 +137,7 @@
           <a href="data-analytics"><button>View More</button></a>
           </div>
           <div class="photo">
-          <img class="preview" src="@/assets/coding/mealplannerpreview.png">
+          <img class="preview" src="@/assets/data.jpg">
           </div>
       </div>
     </div>
@@ -181,6 +181,8 @@
             <h4>Tools:</h4>
               <img src="@/assets/icons/instagram.png">
               <img src="@/assets/icons/facebook.png">
+              <img src="@/assets/icons/pencil.png">
+              <img src="@/assets/icons/paint.png">
           </div>
           <div class="desc">
           <p>Using primarily graphite pencil with the occasional acrylic paint for a pop of color, each portrait 
@@ -189,7 +191,7 @@
           <a href="/portraits"><button>View More</button></a>
           </div>
           <div class="photo">
-          <img class="preview" src="@/assets/portraits/chester_bennington.jpg">
+          <img class="preview" src="@/assets/portraits/aerith_gainsborough.jpg">
           </div>
       </div>
     </div>
@@ -203,23 +205,17 @@
       <div class="card-body">
        <div class="tools">
             <h4>Tools:</h4>
-              <img src="@/assets/icons/bootstrap.png">
-              <img src="@/assets/icons/intellij.png">
-              <img src="@/assets/icons/javascript.png">
-              <img src="@/assets/icons/java.png">
-              <img src="@/assets/icons/html.png">
-              <img src="@/assets/icons/figma.png">
-              <img src="@/assets/icons/vue.png">
-              <img src="@/assets/icons/vscode.png">
-              <img src="@/assets/icons/css.png">
-              <img src="@/assets/icons/pgadmin.png">
+              <img src="@/assets/icons/word.png">
+              <img src="@/assets/icons/computer.png">
           </div>
           <div class="desc">
-          <p>Lorem ipsum..</p>
+          <p>A blog I've created so that I can share resources I've found, talk about what I've learned, and share
+            what my experience as a junior software developer has been like. 
+          </p>
           <a href="/blog"><button>View More</button></a>
           </div>
           <div class="photo">
-          <img class="preview" src="@/assets/coding/mealplannerpreview.png">
+          <img class="preview" src="@/assets/blog.jpg">
           </div>
       </div>
     </div>
@@ -347,7 +343,8 @@ export default {
   grid-area: photo;
 }
 .photo img{
-  width: 20rem;
+  width: 30rem;
+  border-radius: 8px;
 }
 .tools{
   grid-area: tools;
@@ -476,7 +473,8 @@ body{
 }
 #app{
   background-image: url('@/assets/background.jpg');
-  background-repeat: round;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
 }
 </style>

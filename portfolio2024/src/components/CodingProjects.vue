@@ -70,7 +70,7 @@
         </div>
 
           <div class="card" style="width: 600px">
-            <img class="card-img-top" style="height: 300px" src="@/assets/coding/portfolio.png" alt="Portfolio Site">
+            <img class="card-img-top" style="height: 300px" src="@/assets/coding/portfolio.jpg" alt="Portfolio Site">
             <div class="card-body">
             <a href="https://github.com/ATaylorN/Portfolio2024/tree/main/portfolio2024"><h4 class="card-title">Portfolio Site</h4></a>
             <img src="@/assets/icons/bootstrap.png">

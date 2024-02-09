@@ -17,14 +17,27 @@
         <p>"But why tho? I liked your last one!" I get it; I didn't hate the previous version of my portfolio site. But since the time
             that I had initially created it, I've learned a lot and I wanted a way to showcase that. I probably could've 
             just thrown in a new section for the new skills, but a couple of weeks ago, I was hit with a spark of inspiration and it led 
-            to me completely redoing my site. 
+            to me completely redoing my site. So new year, new...site. On the plus side, this project was a great refresher on frontend development and overall design.
         </p>
+        <img src="../assets/posts/portfolio.png">
+        <img src="../assets/right-arrow.png">
+        <img src="../assets/posts/new-portfolio.png">
     </article>
 
     <article id="newskills">
         <h4>February 9th, 2024</h4>
         <h2>New Skills Acquired</h2>
-        <p></p>
+        <p>Since graduating Tech Elevator, I've continued to learn as much as possible about software development. At first, I'll admit, I didn't really have 
+            a direction, but as I was applying to jobs, the companies that were interested in me primarily used Python. Since I'm most familiar with Java, I
+            decided that learning Python would be my next challenge.<br><br>
+            I spent about two months going through LinkedIn Learning classes and even an online MIT class. 
+            While I was working on this, I was also going through the interview process for a data analyst position so I quickly added data analytics, Excel (specifically things
+            like pivot tables), tableau, pandas, and more to my list of things to learn, going through even more LinkedIn Learning classes and going so far as to watch a 19 
+            hour data anayltics video on YouTube. <br><br>
+            Ultimately, I didn't get that data analyst position. They found a candidate that was just a bit more of what they were looking for which was heart-breaking.
+            On the bright side, I have all of this additional knowledge and skills that I didn't have before. And I know that if I'm up for another data analyst position,
+            I'll be that much more prepared.
+        </p>
     </article>
 
     <article class="resources" id="resources">
@@ -154,6 +167,10 @@ export default {
 </script>
 
 <style scoped>
+#portfolio img{
+    margin: 2rem;
+    max-height: 600px;
+}
 .to-top{
     position: fixed;
     bottom: 0;
@@ -200,7 +217,8 @@ p{
     grid-template-areas: "blog nav";
     grid-template-columns: 4fr 1fr;
     background-image: url("../assets/background.jpg");
-    background-repeat: round;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
 }
 .posts{

@@ -17,7 +17,7 @@
         <a href="#"><button class="btn">View Project</button></a>
       </div>
       <div class="right">
-        <img src="@/assets/coding/portfolio.png">
+        <img src="@/assets/coding/portfolio.jpg">
       </div>
   
     </section>
@@ -73,7 +73,7 @@
         </div>
 <!-- Tableau Data Visualizations -->
           <div class="card" style="width: 600px">
-            <img class="card-img-top" style="height: 300px" src="@/assets/coding/portfolio.png" alt="Portfolio Site">
+            <img class="card-img-top" style="height: 300px" src="@/assets/coding/portfolio.jpg" alt="Portfolio Site">
             <div class="card-body">
             <a href="https://github.com/ATaylorN/Portfolio2024/tree/main/portfolio2024"><h4 class="card-title">Tableau Data Visualizations</h4></a>
             <img src="@/assets/icons/bootstrap.png">
