@@ -4,7 +4,7 @@
     <h2 class="title">Data Analytics & Python - Coming Soon</h2>
 
     <section class="featured">
-      <div class="left">
+      <div id="left" class="slide-in-right">
         <h3 class="left-title">Featured Project</h3>
         <img src="@/assets/icons/bootstrap.png">
         <img src="@/assets/icons/intellij.png">
@@ -16,13 +16,13 @@
          et deleniti, necessitatibus veniam incidunt, eligendi tempora nulla fuga aliquam soluta magnam!</p>
         <a href="#"><button class="btn">View Project</button></a>
       </div>
-      <div class="right">
+      <div id="right" class="slide-in-right">
         <img src="@/assets/coding/portfolio.jpg">
       </div>
   
     </section>
 
-    <section class="projects-section">
+    <section id="projects-section" class="fade-in-bottom">
 <!-- SQL Data Exploration -->
         <div class="card" style="width: 600px">
             <img class="card-img-top" src="@/assets/coding/LandingPage.png" alt="Meal Planner">
@@ -223,7 +223,7 @@ export default {
 </script>
 
 <style scoped>
-.left-title{
+#left-title{
   margin-bottom: 0;
   font-family: 'Share Tech Mono', monospace;
   color: white;
@@ -238,11 +238,11 @@ export default {
   margin-bottom: 4rem;
   gap: 4rem;
 }
-.left img{
+#left img{
   width: 40px;
   margin-bottom: 1.5rem;
 }
-.right img{
+#right img{
   max-width: 700px; 
 }
 .title{
@@ -264,7 +264,7 @@ a{
 a:hover{
     color: #9EB5BC;
 }
-.projects-section{
+#projects-section{
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
@@ -299,5 +299,61 @@ a:hover{
 }
 .btn:hover{
     background-color: #ECEAE4;
+}
+.fade-in-bottom {
+	-webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(150px);
+            transform: translateY(150px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(150px);
+            transform: translateY(150px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+.slide-in-right {
+	-webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
 }
 </style>

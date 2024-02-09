@@ -62,8 +62,8 @@
   </section>
 
     <section class="art-desc">
-    <h2>Graphite Pencil Portraits</h2>
-    <p class="port-desc">Using primarily graphite pencil with the occasional acrylic paint for a pop of color, each portrait takes roughly 40+ hours. I've drawn characters from several of my favorite shows, movies, video games, along with the occasional commission.</p>
+    <h2 class="fade-in-bottom">Graphite Pencil Portraits</h2>
+    <p id="port-desc" class="fade-in-bottom">Using primarily graphite pencil with the occasional acrylic paint for a pop of color, each portrait takes roughly 40+ hours. I've drawn characters from several of my favorite shows, movies, video games, along with the occasional commission.</p>
     </section>
 
   <div class="portraits">
@@ -424,7 +424,7 @@ export default {
   background-color: #384C52;
   color: white;
 }
-.port-desc{
+#port-desc{
 font-family: 'Roboto Condensed', sans-serif;
 font-size: 20px;
 }
@@ -513,5 +513,33 @@ button{
     font-family: 'Share Tech Mono', monospace;
     font-size: 18px;
     color: white;
+}
+.fade-in-bottom {
+	-webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(150px);
+            transform: translateY(150px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(150px);
+            transform: translateY(150px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
 }
 </style>

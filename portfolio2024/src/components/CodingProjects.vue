@@ -2,7 +2,7 @@
   <section class="coding-page">
     <h2 class="title">Coding Projects</h2>
 
-    <section class="projects-section">
+    <section id="projects-section" class="fade-in-bottom">
         <div class="card" style="width: 600px">
             <img class="card-img-top" src="@/assets/coding/LandingPage.png" alt="Meal Planner">
             <div class="card-body">
@@ -211,7 +211,7 @@ a{
 a:hover{
     color: #9EB5BC;
 }
-.projects-section{
+#projects-section{
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
@@ -248,4 +248,33 @@ a:hover{
 .btn:hover{
     background-color: #9EB5BC;
 }
+.fade-in-bottom {
+	-webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(150px);
+            transform: translateY(150px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(150px);
+            transform: translateY(150px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 </style>

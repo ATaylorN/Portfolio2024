@@ -2,14 +2,14 @@
   <main id="app">
 
     <div class="amanda">
-    <h1 class="name">Amanda Taylor</h1>
-    <p class="about">Junior Software Developer *  Veteran  *  Artist  *  Sci-fi Enthusiast </p>
+    <h1 id="name" class="puff-in-center">Amanda Taylor</h1>
+    <p id="about" class="puff-in-center">Junior Software Developer *  Veteran  *  Artist  *  Sci-fi Enthusiast </p>
     </div>
     <HeaderSection class="sticky-top"/>
 
     <section class="bio">
-      <img class="mainphoto" src="@/assets/mainBioPhoto.jpg" alt="Various photos Amanda and her work"/>
-        <div class="text">
+      <img id="mainphoto" class="fade-in-bottom" src="@/assets/mainBioPhoto.jpg" alt="Various photos Amanda and her work"/>
+        <div id="text" class="fade-in-bottom">
         <h2>A Little About Me </h2>
         <p>I'm a software developer, veteran, and artist with over 11 years of customer service and sales
            experience. As far back as I can remember, I’ve always been the creative type. I was the kid 
@@ -339,10 +339,10 @@ export default {
 .desc button:hover{
   background-color: #9EB5BC;
 }
-.photo{
+#photo{
   grid-area: photo;
 }
-.photo img{
+#photo img{
   width: 30rem;
   border-radius: 8px;
 }
@@ -419,13 +419,13 @@ body{
   justify-content: center;
   gap: 4rem;
 }
-.text h2{
+#text h2{
   font-family: 'Share Tech Mono', monospace;
   font-weight: 600;
   color: #142126;
   padding-bottom: 1.50rem;
   }
-.text{
+#text{
   text-align: center;
   padding: 15% 0 0 1.5rem;
   grid-area: text;
@@ -440,7 +440,7 @@ body{
   gap: 1rem;
   margin-top: -180px;
 }
-.mainphoto {
+#mainphoto {
   max-height: 50em;
   grid-area: photo;
 }
@@ -457,14 +457,14 @@ body{
   padding-top: 15%;
   padding-bottom: 15%;
 }
-.name{
+#name{
   text-align: center;
   font-family: 'Share Tech Mono';
   font-size: 6em;
   margin: 0;
   color: #ECEAE4;
 }
-.about {
+#about {
   text-align: center;
   margin: 0;
   font-family: 'Share Tech Mono';
@@ -477,4 +477,69 @@ body{
   background-size: cover;
   background-attachment: fixed;
 }
+.puff-in-center {
+	-webkit-animation: puff-in-center 0.5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  animation: puff-in-center 0.5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+@-webkit-keyframes puff-in-center {
+  0% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    -webkit-filter: blur(4px);
+            filter: blur(4px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes puff-in-center {
+  0% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    -webkit-filter: blur(4px);
+            filter: blur(4px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+.fade-in-bottom {
+	-webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@-webkit-keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(150px);
+            transform: translateY(150px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    -webkit-transform: translateY(150px);
+            transform: translateY(150px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 </style>

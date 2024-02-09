@@ -11,7 +11,7 @@
     </nav> 
 
     <section class="posts">
-    <article id="portfolio">
+    <article id="portfolio" class="slide-in-left">
         <h4>February 9th, 2024</h4>
         <h2>Portfolio Updates!</h2>
         <p>"But why tho? I liked your last one!" I get it; I didn't hate the previous version of my portfolio site. But since the time
@@ -268,5 +268,33 @@ h2{
 p{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 18px;
+}
+.slide-in-left {
+	-webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
 }
 </style>
