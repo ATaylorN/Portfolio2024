@@ -106,8 +106,6 @@
         </div>
     </section>
 
-    <section class="to-top"><a href="#"><img src="../assets/scroll-up.png"></a></section>
-
   </section>
 </template>
 
@@ -118,23 +116,12 @@ export default {
 </script>
 
 <style scoped>
-.to-top{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    padding: 1.5rem 2rem;
-}
-.to-top img{
-    max-width: 50px;
-}
-.to-top img:hover{
-    max-width: 60px;
-}
 .seminar{
     background-color: #9EB5BC;
     margin-top: 4rem;
     padding: 4rem 6rem;
     display: flex;
+    flex-wrap: wrap;
     gap: 4rem;
     justify-content: center;
 }
@@ -173,12 +160,14 @@ export default {
 }
 .new-img {
     display: flex;
+    flex-wrap: wrap;
 }
 .new-img img{
     max-width: 550px;
 }
 .general{
     display: flex;
+    flex-wrap: wrap;
     gap: 4rem;
     justify-content: center;
     padding-top: 4rem;
@@ -202,6 +191,7 @@ export default {
 }
 .bottom-left{
     display: flex;
+    flex-wrap: wrap;
     margin-top: 2rem;
     gap: 1.5rem;
     align-items: center;
@@ -212,6 +202,7 @@ export default {
 }
 .fallfest{
     display: flex;
+    flex-wrap: wrap;
     background-color: #ECEAE4;
     gap: 2rem;
     justify-content: space-around;
@@ -258,13 +249,17 @@ p{
 }
 .all-ways{
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 1.5rem;
     padding: 4rem 10rem;
+    gap: 2rem;
+}
+.left{
+    max-width: 900px;
 }
 .left p{
     margin-bottom: 1.5rem;
     margin-top: 2rem;
-    max-width: 870px;
 }
 .right img {
     max-width: 640px;
@@ -296,5 +291,88 @@ p{
             transform: translateY(0);
     opacity: 1;
   }
+}
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+.all-ways{
+    padding: 4rem;
+}
+.right img {
+    display: none;
+}
+.fallfest{
+    padding: 4rem;
+}
+.fall-right img{
+    display: none;
+}
+.gen-right p{
+    max-width: 600px;
+}
+.sem-left img{
+    display: none;
+}
+}
+@media only screen and (max-width: 600px) {
+.all-ways{
+padding: 2rem 2rem 0 2rem;
+margin-bottom: 0.5rem;
+}
+.right img {
+display: none;
+}
+.left img{
+max-width: 150px;
+}
+.bottom-left img{
+    display: none;
+}
+.fall-right img{
+    display: none;
+}
+.seminar{
+    margin-top: 0;
+    padding: 0rem 2rem 2rem 2rem;
+}
+.sem-left img{
+    display: none;
+}
+.sem-right img{
+    max-width: 150px;
+}
+.general{
+    gap: 0;
+    padding: 2rem;
+}
+.new-img img{
+    max-width: 300px;
+}
+.gen-left img{
+    max-width: 300px;
+}
+.gen-left{
+    padding: 2rem 1em 0.5rem 1rem;
+}
+.gen-left p{
+    margin-bottom: 1rem;
+}
+.gen-left h3{
+    margin-top: 1.5rem;
+}
+.gen-right h3{
+    margin-top: 1rem;
+}
+.gen-right p{
+    margin-bottom: 1.5rem;
+}
+.fallfest{
+    padding: 2rem 2rem 0 2rem;
+}
+.fall-left{
+    max-width: 350px;
+}
+.fall-desc p{
+    max-width: 350px;
+}
+
 }
 </style>
