@@ -188,6 +188,8 @@ b{
 }
 p{
     margin-bottom:0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
 }
 .desc{
     color: #9EB5BC;
@@ -201,6 +203,7 @@ p{
 }
 .posts{
     padding: 4rem;
+    grid-area: blog;
 }
 .posts article{
     background-color: white;
@@ -220,9 +223,6 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-}
-.posts{
-    grid-area: blog;
 }
 .blog-nav {
     grid-area: nav;
@@ -265,10 +265,6 @@ h2{
     font-family: 'Share Tech Mono', monospace;
     color: #142126;
 }
-p{
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 18px;
-}
 .slide-in-left {
 	-webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -296,5 +292,35 @@ p{
             transform: translateX(0);
     opacity: 1;
   }
+}
+@media only screen and (max-width: 600px){
+.blog-page{
+    grid-template-columns: 2fr 0.5fr;
+}
+.posts{
+    padding: 1rem;
+}
+.posts article{
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+img{
+    display: none;
+}
+.blog-nav{
+    font-size: 12px;
+}
+.blog-nav li{
+    padding: 0.5rem;
+}
+.blog-nav h2{
+    margin: 0.5rem;
+}
+}
+@media only screen and (min-width: 600px) and (max-width: 1100px){
+#portfolio img{
+ margin: 0.5rem;
+ max-height: 25rem;
+}
 }
 </style>
