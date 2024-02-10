@@ -356,4 +356,24 @@ a:hover{
     opacity: 1;
   }
 }
+@media only screen and (max-width: 600px) {
+  .featured {
+  flex-direction: column;
+  font-size: 14px;
+  padding: 1.2rem;
+  gap: 0;
+  }
+  #right img{
+  max-width: 350px; 
+}
+}
+@media only screen and (min-width: 600px) and (max-width: 1200px){
+  .featured {
+  flex-direction: column;
+  padding: 4rem;
+  }
+  #right img{
+  max-width: 600px; 
+}
+}
 </style>
