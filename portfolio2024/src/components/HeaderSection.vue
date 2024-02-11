@@ -7,7 +7,8 @@
     </button>
     
     <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-      <ul class="navbar-nav ">
+      
+      <ul class="navbar-nav">
         <li class="nav-item "><a class="nav-link" href="/">HOME</a></li>
         <li class="nav-item "><a class="nav-link" href="/coding-projects">CODING PROJECTS</a></li>
         <li class="nav-item"><a class="nav-link" href="/data-analytics">DATA ANALYTICS & PYTHON</a></li>
