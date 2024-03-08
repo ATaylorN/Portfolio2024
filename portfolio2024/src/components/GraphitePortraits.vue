@@ -544,4 +544,15 @@ button{
     opacity: 1;
   }
 }
+@media screen and (max-width: 600px) {
+  .modal-header h4{
+    font-size: 18px;
+  }
+  .modal-header p{
+    font-size: 14px;
+  }
+  .modal img{
+    max-height: 375px;
+  }
+}
 </style>

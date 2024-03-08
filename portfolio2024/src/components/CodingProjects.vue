@@ -7,16 +7,16 @@
             <img class="card-img-top" src="@/assets/coding/LandingPage.png" alt="Meal Planner">
             <div class="card-body">
             <a href="https://github.com/ATaylorN/capstone3_mealplanner"><h4 class="card-title">Meal Planner</h4></a>
-            <img src="@/assets/icons/bootstrap.png">
-            <img src="@/assets/icons/intellij.png">
-            <img src="@/assets/icons/javascript.png">
-            <img src="@/assets/icons/java.png">
-            <img src="@/assets/icons/html.png">
-            <img src="@/assets/icons/figma.png">
-            <img src="@/assets/icons/vue.png">
-            <img src="@/assets/icons/vscode.png">
-            <img src="@/assets/icons/css.png">
-            <img src="@/assets/icons/pgadmin.png">
+            <img src="@/assets/icons/bootstrap.png" alt="Bootstrap icon">
+            <img src="@/assets/icons/intellij.png" alt="IntelliJ icon">
+            <img src="@/assets/icons/javascript.png" alt="JavaScript icon">
+            <img src="@/assets/icons/java.png" alt="Java icon">
+            <img src="@/assets/icons/html.png" alt="HTML icon">
+            <img src="@/assets/icons/figma.png" alt="Figma icon">
+            <img src="@/assets/icons/vue.png" alt="Vue icon">
+            <img src="@/assets/icons/vscode.png" alt="VS Code icon">
+            <img src="@/assets/icons/css.png" alt="CSS icon">
+            <img src="@/assets/icons/pgadmin.png" alt="PGAdmin icon">
             <p class="card-text"> 12 weeks into the program, we were assigned to a team of 4. Together we utilized Java, Spring Boot, PostgreSQL, and Vue.js 
                 (just to name a few) to develop a meal planner web application where a user can view, add, or update recipes with ease. In the 'Build a Recipe' 
                 page, the user can search for ingredients to add to their recipe and the information/images are supplied by an API. Our Calendar contained a 
@@ -41,16 +41,16 @@
             <img class="card-img-top" style="height: 300px" src="@/assets/coding/landing-page.png" alt="Flash Cards">
             <div class="card-body">
             <a href="https://github.com/ATaylorN/flashcards"><h4 class="card-title">Flash Cards</h4></a>
-            <img src="@/assets/icons/bootstrap.png">
-            <img src="@/assets/icons/intellij.png">
-            <img src="@/assets/icons/javascript.png">
-            <img src="@/assets/icons/java.png">
-            <img src="@/assets/icons/html.png">
-            <img src="@/assets/icons/figma.png">
-            <img src="@/assets/icons/vue.png">
-            <img src="@/assets/icons/vscode.png">
-            <img src="@/assets/icons/css.png">
-            <img src="@/assets/icons/pgadmin.png">
+            <img src="@/assets/icons/bootstrap.png" alt="Bootstrap icon">
+            <img src="@/assets/icons/intellij.png" alt="IntelliJ icon">
+            <img src="@/assets/icons/javascript.png" alt="JavaScript icon">
+            <img src="@/assets/icons/java.png" alt="Java icon">
+            <img src="@/assets/icons/html.png" alt="HTML icon">
+            <img src="@/assets/icons/figma.png" alt="Figma icon">
+            <img src="@/assets/icons/vue.png" alt="Vue icon">
+            <img src="@/assets/icons/vscode.png" alt="VS Code icon">
+            <img src="@/assets/icons/css.png" alt="CSS icon">
+            <img src="@/assets/icons/pgadmin.png" alt="PGAdmin icon">
             <p class="card-text">This project was actually heavily inspired by a fellow classmate who created something
                  similar for his .NET studying and I wanted to do something similar for Java. Using Java, Spring Boot, 
                  and PostgreSQL for the backend and Vue.js for the frontend, I created an app where the user can choose 
@@ -73,20 +73,16 @@
             <img class="card-img-top" style="height: 300px" src="@/assets/coding/portfolio.jpg" alt="Portfolio Site">
             <div class="card-body">
             <a href="https://github.com/ATaylorN/Portfolio2024/tree/main/portfolio2024"><h4 class="card-title">Portfolio Site</h4></a>
-            <img src="@/assets/icons/bootstrap.png">
-            <img src="@/assets/icons/javascript.png">
-            <img src="@/assets/icons/html.png">
-            <img src="@/assets/icons/figma.png">
-            <img src="@/assets/icons/vue.png">
-            <img src="@/assets/icons/css.png">
-            <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quaerat
-                 incidunt dicta illo nostrum cupiditate veritatis nisi mollitia, temporibus quia esse 
-                 doloribus hic quasi iusto? Quas ducimus repudiandae laudantium autem.<br>
-
-                <br><b>What I Learned:</b><br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, facere officiis. 
-                Dicta esse itaque quasi debitis, magni, molestias dolore velit voluptatem incidunt 
-                ratione eum ex. Voluptatem minima ipsa officia reprehenderit.</p>
+            <img src="@/assets/icons/bootstrap.png" alt="Bootstrap icon">
+            <img src="@/assets/icons/javascript.png" alt="JavaScript icon">
+            <img src="@/assets/icons/html.png" alt="HTML icon">
+            <img src="@/assets/icons/figma.png" alt="Figma icon">
+            <img src="@/assets/icons/vue.png" alt="Vue icon">
+            <img src="@/assets/icons/vscode.png" alt="VS Code icon">
+            <img src="@/assets/icons/css.png" alt="CSS icon">
+            <p class="card-text">My goal is to create a portfolio website that highlights not only the all of the coding projects that 
+                I've worked on, but the marketing that I've worked on and the numerous portraits that I've created. I really want to highlight 
+                that I'm a software developer that also has an eye for design.</p>
             <a href="https://github.com/ATaylorN/Portfolio2024/tree/main/portfolio2024" class="btn">View Project</a>
             </div>
         </div>
@@ -95,16 +91,16 @@
             <img class="card-img-top" style="height: 300px" src="@/assets/coding/library.png" alt="Library">
             <div class="card-body">
             <a href="https://github.com/ATaylorN/library_side_project"><h4 class="card-title">Library</h4></a>
-            <img src="@/assets/icons/bootstrap.png">
-            <img src="@/assets/icons/intellij.png">
-            <img src="@/assets/icons/javascript.png">
-            <img src="@/assets/icons/java.png">
-            <img src="@/assets/icons/html.png">
-            <img src="@/assets/icons/figma.png">
-            <img src="@/assets/icons/vue.png">
-            <img src="@/assets/icons/vscode.png">
-            <img src="@/assets/icons/css.png">
-            <img src="@/assets/icons/pgadmin.png">
+            <img src="@/assets/icons/bootstrap.png" alt="Bootstrap icon">
+            <img src="@/assets/icons/intellij.png" alt="IntelliJ icon">
+            <img src="@/assets/icons/javascript.png" alt="JavaScript icon">
+            <img src="@/assets/icons/java.png" alt="Java icon">
+            <img src="@/assets/icons/html.png" alt="HTML icon">
+            <img src="@/assets/icons/figma.png" alt="Figma icon">
+            <img src="@/assets/icons/vue.png" alt="Vue icon">
+            <img src="@/assets/icons/vscode.png" alt="VS Code icon">
+            <img src="@/assets/icons/css.png" alt="CSS icon">
+            <img src="@/assets/icons/pgadmin.png" alt="PGAdmin icon">
             <p class="card-text"> Status: In Progress<br>
 
                 <br><b>Goal:</b><br>

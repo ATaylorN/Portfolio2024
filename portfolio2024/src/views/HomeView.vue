@@ -19,9 +19,11 @@
            app, if I’m creating something, I’m happy. I find the process of figuring out how to bring an 
            idea to reality to be incredibly rewarding and I have a passion for learning.</p>
         </div>
-      <span class="icons">
-        <a href="https://www.linkedin.com/in/amanda-taylor1/"><img src="@/assets/icons/linkedin.png"></a>
-        <a href="https://github.com/ATaylorN"><img src="@/assets/icons/github.png"></a>
+      <div class="icons">
+        
+        <a href="https://www.linkedin.com/in/amanda-taylor1/"><img src="@/assets/icons/linkedin.png" alt="LinkedIn: amanda-taylor1"></a>
+        <a href="https://github.com/ATaylorN"><img src="@/assets/icons/github.png" alt="GitHub: ATaylorN"></a>
+        
         <!-- Email Button Functions: -->
         <div class="dropdown">
         <button type="button" data-bs-toggle="dropdown"><img src="@/assets/icons/email.png" alt="Email: amandanagies@gmail.com"> </button>
@@ -37,7 +39,7 @@
         </ul>
         </div>
       
-      </span>
+      </div>
     </section>
 
     <img class="timeline" src="@/assets/timeline.png" alt="career timeline">
@@ -46,6 +48,7 @@
       <h2>Technical Skills Acquired</h2>
       <div class="lists">
       <div class="list">
+        <ul>
         <li>Java</li>
         <li>Python</li>
         <li>HTML</li>
@@ -54,10 +57,12 @@
         <li>JavaScript</li>
         <li>Vue.js</li>
         <li>Integration Testing (Postman)</li>
+        </ul>
         
       </div>
 
       <div class="list">
+        <ul>
         <li>Git</li>
         <li>PowerBi</li>
         <li>IntelliJ</li>
@@ -66,14 +71,17 @@
         <li>Unit Testing (JUnit)</li>
         <li>E/R Diagrams</li>
         <li>SpringBoot</li>
+        </ul>
       </div>
 
       <div class="list2">
+        <ul>
         <li>Tableau</li>
         <li>Agile Methodologies</li>
         <li>Microsoft Excel</li>
         <li>Data Analytics</li>
         <li>Responsive Web Design</li>
+        </ul>
       </div>
       </div>
     </section>
@@ -89,16 +97,16 @@
         <div class="card-body">
           <div class="tools">
             <h4>Tools:</h4>
-              <img src="@/assets/icons/bootstrap.png">
-              <img src="@/assets/icons/intellij.png">
-              <img src="@/assets/icons/javascript.png">
-              <img src="@/assets/icons/java.png">
-              <img src="@/assets/icons/html.png">
-              <img src="@/assets/icons/figma.png">
-              <img src="@/assets/icons/vue.png">
-              <img src="@/assets/icons/vscode.png">
-              <img src="@/assets/icons/css.png">
-              <img src="@/assets/icons/pgadmin.png">
+              <img src="@/assets/icons/bootstrap.png" alt="Bootstrap logo">
+              <img src="@/assets/icons/intellij.png" alt="IntelliJ logo">
+              <img src="@/assets/icons/javascript.png" alt="JavaScript logo">
+              <img src="@/assets/icons/java.png" alt="Java logo">
+              <img src="@/assets/icons/html.png" alt="HTML logo">
+              <img src="@/assets/icons/figma.png" alt="Figma logo">
+              <img src="@/assets/icons/vue.png" alt="Vue logo">
+              <img src="@/assets/icons/vscode.png" alt="VS Code logo">
+              <img src="@/assets/icons/css.png" alt="CSS logo">
+              <img src="@/assets/icons/pgadmin.png" alt="PGAdmin logo">
           </div>
           <div class="desc">
           <p>Projects include a meal planner application that I worked on with three other Tech Elevator graduates, a flash cards application that
@@ -107,7 +115,7 @@
           <a href="/coding-projects"><button>View More</button></a>
           </div>
           <div class="photo">
-          <img class="preview" src="@/assets/coding/LandingPage.png">
+          <img class="preview" src="@/assets/coding/LandingPage.png" alt="Preview of Meal Planner App">
           </div>
         </div>
         </div>
@@ -121,23 +129,18 @@
       <div class="card-body">
         <div class="tools">
             <h4>Tools:</h4>
-              <img src="@/assets/icons/bootstrap.png">
-              <img src="@/assets/icons/intellij.png">
-              <img src="@/assets/icons/javascript.png">
-              <img src="@/assets/icons/java.png">
-              <img src="@/assets/icons/html.png">
-              <img src="@/assets/icons/figma.png">
-              <img src="@/assets/icons/vue.png">
-              <img src="@/assets/icons/vscode.png">
-              <img src="@/assets/icons/css.png">
-              <img src="@/assets/icons/pgadmin.png">
+              <img src="@/assets/icons/sql.png" alt="SQL icon">
+              <img src="@/assets/icons/excel.png" alt="Microsoft Excel logo">
           </div>
           <div class="desc">
-          <p>Lorem ipsum..</p>
+          <p>Currently still being built, but a section to showcase projects where I've gone through large data sets,
+            formatted the data so that it was consistent and easier to manipulate, and ran multiple SQL queries to 
+            analyze the data. I'm also currently working on projects where I utilize Tableau to build visualizations
+            and Python to pull data from external websites. </p>
           <a href="data-analytics"><button>View More</button></a>
           </div>
           <div class="photo">
-          <img class="preview" src="@/assets/data.jpg">
+          <img class="preview" src="@/assets/data.jpg" alt="Photo of paperwork on top of laptop">
           </div>
       </div>
     </div>
@@ -151,12 +154,12 @@
       <div class="card-body">
        <div class="tools">
             <h4>Tools:</h4>
-              <img src="@/assets/icons/instagram.png">
-              <img src="@/assets/icons/canva.png">
-              <img src="@/assets/icons/facebook.png">
-              <img src="@/assets/icons/linkedin.png">
-              <img src="@/assets/icons/airtable.png">
-              <img src="@/assets/icons/mailchimp.png">
+              <img src="@/assets/icons/instagram.png" alt="Instagram logo">
+              <img src="@/assets/icons/canva.png" alt="Canva logo">
+              <img src="@/assets/icons/facebook.png" alt="Facebook logo">
+              <img src="@/assets/icons/linkedin.png" alt="LinkedIn logo">
+              <img src="@/assets/icons/airtable.png" alt="AirTable logo">
+              <img src="@/assets/icons/mailchimp.png" alt="MailChimp logo">
           </div>
           <div class="desc">
           <p>Individual Realtors and Real Estate Teams need a ton of marketing to get in front of potential home-seller 
@@ -165,7 +168,7 @@
           <a href="/marketing"><button>View More</button></a>
           </div>
           <div class="photo">
-          <img class="preview" src="@/assets/marketing/realestatepreview.jpg">
+          <img class="preview" src="@/assets/marketing/realestatepreview.jpg" alt="Preview of four real estate instagram marketing posts">
           </div>
       </div>
     </div>
@@ -179,10 +182,10 @@
       <div class="card-body">
        <div class="tools">
             <h4>Tools:</h4>
-              <img src="@/assets/icons/instagram.png">
-              <img src="@/assets/icons/facebook.png">
-              <img src="@/assets/icons/pencil.png">
-              <img src="@/assets/icons/paint.png">
+              <img src="@/assets/icons/instagram.png" alt="Instagram logo">
+              <img src="@/assets/icons/facebook.png" alt="Facebook logo">
+              <img src="@/assets/icons/pencil.png" alt="Pencil icon">
+              <img src="@/assets/icons/paint.png" alt="Paint icon">
           </div>
           <div class="desc">
           <p>Using primarily graphite pencil with the occasional acrylic paint for a pop of color, each portrait 
@@ -191,7 +194,7 @@
           <a href="/portraits"><button>View More</button></a>
           </div>
           <div class="photo">
-          <img class="preview" src="@/assets/portraits/aerith_gainsborough.jpg">
+          <img class="preview" src="@/assets/portraits/aerith_gainsborough.jpg" alt="Portrait of Aerith Gainsborough">
           </div>
       </div>
     </div>
@@ -205,8 +208,8 @@
       <div class="card-body">
        <div class="tools">
             <h4>Tools:</h4>
-              <img src="@/assets/icons/word.png">
-              <img src="@/assets/icons/computer.png">
+              <img src="@/assets/icons/word.png" alt="Microsoft Word logo">
+              <img src="@/assets/icons/computer.png" alt="Computer icon">
           </div>
           <div class="desc">
           <p>A blog I've created so that I can share resources I've found, talk about what I've learned, and share
@@ -215,7 +218,7 @@
           <a href="/blog"><button>View More</button></a>
           </div>
           <div class="photo">
-          <img class="preview" src="@/assets/blog.jpg">
+          <img class="preview" src="@/assets/blog.jpg" alt="Photo of a typewriter with blog written on paper">
           </div>
       </div>
     </div>
@@ -438,7 +441,7 @@ body{
   grid-area: icons;
   padding-left: 35%;
   gap: 1rem;
-  margin-top: -180px;
+  /* margin-top: -180px; */
 }
 #mainphoto {
   max-height: 50em;

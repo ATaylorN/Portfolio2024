@@ -6,12 +6,95 @@
             <h2>BLOG</h2>
             <a href="#portfolio"><li>Portfolio Updates!</li></a>
             <a href="#newskills"><li>New Skills Acquired</li></a>
+            <a href="#blogEntry1"><li>Weekly Recap: WordPress</li></a>
+            <a href="#blogEntry2"><li>Weekly Recap: Recovery</li></a>
+            <a href="#blogEntry3"><li>Weekly Recap: Portfolio</li></a>
             <a href="#resources"><li>Resources</li></a>
         </ul>
     </nav> 
 
     <section class="posts">
-    <article id="portfolio" class="slide-in-left">
+
+    <article id="blogEntry3" class="slide-in-left">
+        <h4>March 1st, 2024</h4>
+        <h2>Weekly Recap (2/25/24 - 3/2/24): WordPress</h2>
+        <p>📚 This week was all about learning, so I spent most of my time on LinkedIn Learning courses:<br>
+
+        <br>
+        ✅PHP for WordPress<br>
+        ✅Creating Block Patterns in WordPress<br>
+        ✅WordPress Content Blocks: Working with Themes<br>
+        ✅WordPress: Staging a Site<br>
+        ✅WordPress: Contact Forms<br>
+        ✅WordPress: E-commerce<br>
+        ✅WordPress: Building a Secure Site<br>
+
+        <br>
+        I may have had a theme. I've spent some time in the past couple of weeks learning WordPress, but this week, 
+        I really wanted to do a deep dive and ensure that I have a strong knowledge base. <br>
+
+        <br>
+        💻 I've always been fascinated by frontend development and design in general, which is why I love Frontend Mentor. 
+        If you're also into frontend and haven't heard of Frontend Mentor yet, I highly recommend checking them out. They have 
+        a variety of challenges to choose from. They give you an image of a website, and the challenge is to create a site that 
+        is as similar to that image as possible. I recently completed one of their challenges and created a recipe page (https://lnkd.in/gc_gXAcM) 
+        and have also started another challenge to create a landing page. <br>
+        <br>
+        📰 I also spent some time experimenting with WordPress and started building out a website based on the Dungeons and Dragons campaign I'm currently in. <br>
+        <br>
+        🎶 And without further ado, the unhinged Spotify playlist of the week is..."Rap Metal Academic" 🤷‍♀️ 🤣 
+        </p>
+    </article>
+
+    <article id="blogEntry2">
+        <h4>February 24th, 2024</h4>
+        <h2>Weekly Recap (2/18/24 - 2/24/24): Recovery from Rejection</h2>
+        <p>This week:<br>
+
+        <br>
+        💻I completed some more LinkedIn Learning courses: Creating a Responsive Web Design and WordPress.com Essential Training (last week’s was on WordPress.org).<br>
+        <br>
+        📊I completed an Excel project that focused heavily on creating dashboards.<br>
+        <br>
+        📚I read a book called ‘Imposter No More: Overcome Imposterism to Cultivate a Successful Career’ by Jill A. Stoddard, started to learn guitar, 
+        and pulled out my sketchbook for the first time in quite a while.<br>
+        <br>
+        If I’m being completely honest, I didn’t feel as productive this week as I have been in the past. Mid-week, I received a particularly painful 
+        rejection from a job I wanted and I felt that I needed a moment to recover. So I took a little break, which may or may not have included getting 
+        poké for lunch and a trip to MicroCenter.<br>
+        <br>
+        Now it’s time to get back to it👩‍💻
+        </p>
+    </article>
+
+    <article id="blogEntry1">
+        <h4>February 16th, 2024</h4>
+        <h2>Weekly Recap (2/11/24 - 2/17/24): Portfolio Optimization</h2>
+        <p>Thought I'd start giving recaps on my week so here goes:<br>
+
+        <br>
+        📖 This week, I completed 2 projects on data cleaning & exploration using SQL. I also completed various LinkedIn Learning courses including UX Design
+         (a 7-part course), Figma for UX Design, and WordPress Essential Training.<br> 
+
+        <br> 
+        🖥 I also did a lot of work on my portfolio site. I started the week off by creating a logo, figuring out how to get the page title to change when using 
+        a router in Vue as you navigate to different pages, and reworking my GitHub so that when you navigate from my site to different projects, it makes more 
+        sense. I wanted to make it so that the profile page isn't as long and when you click 'View Project' on my site, it takes you to the code, where the readMe 
+        file now has all of the photos, descriptions, what I learned, etc. Then, I deployed it...and immediately had to fix a couple of things lol. It wasn't too 
+        bad; I just noticed that, for some reason, the LinkedIn and GitHub buttons at the top of my page weren't working. Once that was taken care of, I ran Lighthouse 
+        and worked on increasing my accessibility and SEO scores. I sent my site to some people for feedback and to just test it in general and picked up on an 
+        interesting issue that I didn't anticipate (glad I asked). In my portraits section, when you click on a portrait, you can't select any of the buttons I created 
+        underneath the portrait when you're using an iPhone 12. My buttons are covered up by buttons that are built into the iPhone. It's an easy enough fix, just 
+        need to adjust the height of the cards.<br>  
+
+        <br> 
+        🎵 Bonus: my "most unhinged Spotify playlist name" for the week (because I'm getting a kick out of their DayList feature) - I was thinking 
+        "Terror Horrorcore Monday Afternoon" because that felt like a lot for a Monday, but then Spotify hit me with the "Chill Rock Always Single 
+        Wednesday Afternoon" on Valentine's Day, which...rude 🤣 
+        </p>
+    </article>
+
+    <article id="portfolio">
         <h4>February 9th, 2024</h4>
         <h2>Portfolio Updates!</h2>
         <p>"But why tho? I liked your last one!" I get it; I didn't hate the previous version of my portfolio site. But since the time
@@ -19,9 +102,9 @@
             just thrown in a new section for the new skills, but a couple of weeks ago, I was hit with a spark of inspiration and it led 
             to me completely redoing my site. So new year, new...site. On the plus side, this project was a great refresher on frontend development and overall design.
         </p>
-        <img src="../assets/posts/portfolio.png">
-        <img src="../assets/right-arrow.png">
-        <img src="../assets/posts/new-portfolio.png">
+        <img src="../assets/posts/portfolio.png" alt="Portfolio before picture">
+        <img src="../assets/right-arrow.png" alt="right arrow">
+        <img src="../assets/posts/new-portfolio.png" alt="Portfolio updated picture">
     </article>
 
     <article id="newskills">
@@ -156,7 +239,7 @@
 
     </section>
 
-    <section class="to-top"><a href="#"><img src="../assets/scroll-up.png"></a></section>
+    <section class="to-top"><a href="#"><img src="../assets/scroll-up.png" alt="scroll up button"></a></section>
   </section>
 </template>
 
@@ -231,7 +314,7 @@ p{
     font-size: 18px;
     display: flex;
     justify-content: center;
-    box-shadow: 0px 0px 10px #142126;
+    box-shadow: 0px -8px 10px #142126;
 }
 .blog-nav h2{
     margin: 2rem 0;

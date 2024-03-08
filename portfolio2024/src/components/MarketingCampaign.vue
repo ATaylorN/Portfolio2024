@@ -9,27 +9,27 @@
                 this team wants you to know that they can also help with things like new construction 
                 and commercial space. This campaign included social media posts and a flyer created for 
                 their listing presentation.</p>
-            <img src="../assets/marketing/realestate1.png">
-            <img src="../assets/marketing/realestate2.png">
-            <img src="../assets/marketing/realestate3.png">
-            <img src="../assets/marketing/realestate4.png">
-            <img src="../assets/marketing/realestate5.png">
+            <img src="../assets/marketing/realestate1.png" alt="Homebuying instagram post">
+            <img src="../assets/marketing/realestate2.png" alt="HomeSelling instagram post">
+            <img src="../assets/marketing/realestate3.png" alt="New Construction instagram post">
+            <img src="../assets/marketing/realestate4.png" alt="Commercial Leasing and Sales instagram post">
+            <img src="../assets/marketing/realestate5.png" alt="Trusted Partners instagram post">
         </section>
         <section class="right">
-            <img src="../assets/marketing/realestateflyer.jpg"> 
+            <img src="../assets/marketing/realestateflyer.jpg" alt="How JA can help you flyer"> 
         </section>
     </section>
 
     <section class="fallfest">
         <div class="fall-left">
-            <img src="../assets/marketing/fallfestfb.jpg">
+            <img src="../assets/marketing/fallfestfb.jpg" alt="Fall Fest facebook banner">
             <h4>CAMPAIGN:</h4>
             <h2>Annual Fall Fest</h2>
             <p>Janszen Associates' wanted to host a fall-themed event that specifically targeted their 
                 past clients as a way to thank them for their business and referrals. This campaign 
                 included social media posts, emails, and physical signage for the event.</p>
             <div class="bottom-left">
-                <img src="../assets/marketing/fallfestpreview.jpg">
+                <img src="../assets/marketing/fallfestpreview.jpg" alt="Four Fall Fest instagram posts">
             
                 <div class="fall-desc">
                 <h3>FACEBOOK EVENT:</h3>
@@ -47,8 +47,8 @@
         </div>
 
         <div class="fall-right">
-            <img src="../assets/marketing/fallfestemail3.jpg">
-            <img src="../assets/marketing/fallfestemail2.jpg">
+            <img src="../assets/marketing/fallfestemail3.jpg" alt="Fall Fest email part one">
+            <img src="../assets/marketing/fallfestemail2.jpg" alt="Fall Fest email part two">
         </div>
     </section>
 
@@ -60,7 +60,7 @@
             <p>For every single listing that the team would do every year, I created Coming Soon, 
                 ust Listed, Open House (if applicable), and Closed social media posts to get their 
                 listing in front of as many potential buyers as possible.</p>
-                <img src="../assets/marketing/realestatepreview.jpg">
+                <img src="../assets/marketing/realestatepreview.jpg" alt="Four Real Estate instagram posts">
         </div>
         <div class="gen-right">
             <h4>CAMPAIGN:</h4>
@@ -70,16 +70,16 @@
                 highlights from past events, advertisements for upcoming events, and their current 
                 listings.</p>
             <div class="new-img">
-            <img src="../assets/marketing/newsletter.jpg">
-            <img src="../assets/marketing/newsletter2.jpg">
+            <img src="../assets/marketing/newsletter.jpg" alt="Real Estate newsletter page one">
+            <img src="../assets/marketing/newsletter2.jpg" alt="Real Estate newsletter page two">
             </div>
         </div>
     </section>
 
     <section class="seminar">
         <div class="sem-left">
-            <img src="../assets/marketing/buysellfbevent.jpg">
-            <img src="../assets/marketing/buysell4.jpg">
+            <img src="../assets/marketing/buysellfbevent.jpg" alt="Home buying and selling Seminar facebook banner">
+            <img src="../assets/marketing/buysell4.jpg" alt="Home buying and selling event details">
         </div>
         <div class="sem-right">
             <h4>CAMPAIGN:</h4>
@@ -87,9 +87,9 @@
             <p>The real estate market can be confusing so to help, Janszen Associates' hosted a Home 
                 Buying/Selling Seminar. This campaign included social media posts, emails, and physical 
                 signage for the event.</p>
-            <img src="../assets/marketing/buysell1.jpg">
-            <img src="../assets/marketing/buysell2.jpg">
-            <img src="../assets/marketing/buysell3.jpg">
+            <img src="../assets/marketing/buysell1.jpg" alt="Home feeling too small instagram post">
+            <img src="../assets/marketing/buysell2.jpg" alt="Home feeling too big instagram post">
+            <img src="../assets/marketing/buysell3.jpg" alt="We can help instagram post">
             <h3>FACEBOOK EVENTS:</h3>
             <p>To drum up even more interest, I created a public Facebook event for the campaign and sent 
                 invites to our client list, had the agents invite their friends and family, and posted 
@@ -100,9 +100,9 @@
             <h3>FACEBOOK & INSTAGRAM POSTS:</h3>
             <p>For a successful campaign, I created multiple eye-catching graphics to and posted 
                 frequently leading up to the event.</p>
-                <img src="../assets/marketing/buysellsavedate.jpg">
-                <img src="../assets/marketing/buysellsavedate2.jpg">
-                <img src="../assets/marketing/buysellsavedate3.jpg">
+                <img src="../assets/marketing/buysellsavedate.jpg" alt="Home buying and selling seminar save the date instagram post">
+                <img src="../assets/marketing/buysellsavedate2.jpg" alt="Reminder of event instagram post">
+                <img src="../assets/marketing/buysellsavedate3.jpg" alt="Seminar save the date version two instagram post">
         </div>
     </section>
 
