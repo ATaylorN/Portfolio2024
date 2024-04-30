@@ -25,7 +25,7 @@
             <img class="card-img-top" src="@/assets/data/DashboardScreenshot.png" alt="Dashboard in Excel">
             <div class="card-body">
             <a href="https://github.com/ATaylorN/Data-Visualizations-in-Excel"><h4 class="card-title">Data Visualization in Excel</h4></a>
-            <img src="@/assets/icons/excel.png">
+            <img src="@/assets/icons/excel.png" alt="Microsoft excel icon">
             <p class="card-text"> Reformated the data in the Excel columns so that they were more readable. For example, 
               changing 'M' and 'S' to 'Married' and 'Single' so that you don't have to guess what the single letters 
               stand for. Used the information to create pivot tables and then used those pivot tables to create a 
@@ -35,11 +35,11 @@
         </div>
 <!-- SQL Data Exploration-->
         <div class="card" style="width: 600px">
-            <img class="card-img-top" src="@/assets/data/sql.jpg" alt="Dashboard in Excel">
+            <img class="card-img-top" src="@/assets/data/sql.jpg" alt="Screenshot of SQL queries">
             <div class="card-body">
             <a href="https://github.com/ATaylorN/SQL-Data-Exploration"><h4 class="card-title">SQL: Data Cleaning and Exploration</h4></a>
-            <img src="@/assets/icons/sql.png">
-            <img src="@/assets/icons/excel.png">
+            <img src="@/assets/icons/sql.png" alt="SQL icon">
+            <img src="@/assets/icons/excel.png" alt="Microsoft Excel icon">
             <p class="card-text">Used SQL to analyze Covid data. Looked at things like countries with the highest 
               rates of infection per population, countries with the highest death count per population, and 
               continents with the highest death count per population.</p>
@@ -48,12 +48,12 @@
         </div>
 <!-- BMI Calculator -->
         <div class="card" style="width: 600px">
-            <img class="card-img-top" style="height: 300px" src="@/assets/coding/library.png" alt="Library">
+            <img class="card-img-top" style="height: 300px" src="@/assets/data/bmi.jpg" alt="A measuring tape on top of a scale">
             <div class="card-body">
             <a href="https://github.com/ATaylorN/Python-Lessons"><h4 class="card-title">Python: BMI Calculator</h4></a>
-            <img src="@/assets/icons/jupyter.png">
-            <img src="@/assets/icons/python.png">
-            <img src="@/assets/icons/anaconda.png">
+            <img src="@/assets/icons/jupyter.png" alt="Jupyter icon">
+            <img src="@/assets/icons/python.png" alt-="Python programming language icon">
+            <img src="@/assets/icons/anaconda.png" alt="Anaconda icon">
             <p class="card-text">Your standard body mass index (BMI) calculator written in Python. It'll prompt 
               the user their name, weight in pounds, and height in inches, and then let you know what category 
               you fall in.</p>
@@ -62,12 +62,12 @@
         </div>
 <!-- Python Automated File Sorter -->
         <div class="card" style="width: 600px">
-            <img class="card-img-top" style="height: 300px" src="@/assets/coding/library.png" alt="Library">
+            <img class="card-img-top" style="height: 300px" src="@/assets/data/filesort.jpg" alt="Files being sorted into a folder">
             <div class="card-body">
             <a href="https://github.com/ATaylorN/Python-Lessons"><h4 class="card-title">Python: Automatic File Sorter</h4></a>
-            <img src="@/assets/icons/anaconda.png">
-            <img src="@/assets/icons/python.png">
-            <img src="@/assets/icons/jupyter.png">
+            <img src="@/assets/icons/jupyter.png" alt="Jupyter icon">
+            <img src="@/assets/icons/python.png" alt-="Python programming language icon">
+            <img src="@/assets/icons/anaconda.png" alt="Anaconda icon">
             <p class="card-text">Input your file path and it will create a seperate folder for png, 
               csv, and text files and then seperate those files into their respective folders.</p>
             <a href="https://github.com/ATaylorN/Python-Lessons" class="btn">View Project</a>
@@ -75,13 +75,13 @@
         </div>
 <!-- Python Web Scraping: Amazon -->
           <div class="card" style="width: 600px">
-            <img class="card-img-top" style="height: 300px" src="@/assets/coding/library.png" alt="Library">
+            <img class="card-img-top" style="height: 300px" src="@/assets/data/amazon.jpg" alt="Image of several 20 dollar bills under a laptop keyboard">
             <div class="card-body">
             <a href="https://github.com/ATaylorN/Python-Lessons"><h4 class="card-title">Python Web Scraping: Amazon</h4></a>
-            <img src="@/assets/icons/anaconda.png">
-            <img src="@/assets/icons/python.png">
-            <img src="@/assets/icons/jupyter.png">
-            <img src="@/assets/icons/excel.png">
+            <img src="@/assets/icons/jupyter.png" alt="Jupyter icon">
+            <img src="@/assets/icons/python.png" alt-="Python programming language icon">
+            <img src="@/assets/icons/anaconda.png" alt="Anaconda icon">
+            <img src="@/assets/icons/excel.png" alt="Microsoft Excel icon">
             <p class="card-text">Built a web scraper using Python in Jupyter Notebook that checks on a "Got Data?" 
               t-shirt that is for sale on Amazon. It pulls the title, price, rating, and description information, 
               formats the information to make it more readable, and logs the data in a csv file (creating the csv 
@@ -92,13 +92,13 @@
         </div>
 <!-- Crypto Currency API & Visualization -->
       <div class="card" style="width: 600px">
-            <img class="card-img-top" style="height: 300px" src="@/assets/coding/library.png" alt="Library">
+            <img class="card-img-top" style="height: 300px" src="@/assets/data/crypto.jpg" alt="Several gold coins with the BitCoin logo in front of a line graph">
             <div class="card-body">
             <a href="https://github.com/ATaylorN/Python-Lessons"><h4 class="card-title">Python: Crypto Currency API</h4></a>
-            <img src="@/assets/icons/anaconda.png">
-            <img src="@/assets/icons/python.png">
-            <img src="@/assets/icons/jupyter.png">
-            <img src="@/assets/icons/excel.png">
+            <img src="@/assets/icons/jupyter.png" alt="Jupyter icon">
+            <img src="@/assets/icons/python.png" alt-="Python programming language icon">
+            <img src="@/assets/icons/anaconda.png" alt="Anaconda icon">
+            <img src="@/assets/icons/excel.png" alt="Microsoft Excel icon">
             <p class="card-text">Pulls information from a crypto currency API and stores it in a dataframe using 
               Pandas and Python. Set it collect the data once every minute and then append the data to the dataframe. 
               Then worked on cleaning the data and making it more readable and eventually putting the data into charts.</p>
