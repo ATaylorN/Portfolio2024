@@ -19,194 +19,92 @@
     </section>
 
     <section id="projects-section" class="fade-in-bottom">
-<!-- SQL Data Exploration -->
-        <!-- <div class="card" style="width: 600px">
-            <img class="card-img-top" src="@/assets/coding/LandingPage.png" alt="Meal Planner">
+
+<!-- Data Visualization in Excel-->
+        <div class="card" style="width: 600px">
+            <img class="card-img-top" src="@/assets/data/DashboardScreenshot.png" alt="Dashboard in Excel">
             <div class="card-body">
-            <a href="https://github.com/ATaylorN/capstone3_mealplanner"><h4 class="card-title">SQL Data Exploration</h4></a>
-            <img src="@/assets/icons/bootstrap.png">
-            <img src="@/assets/icons/intellij.png">
-            <img src="@/assets/icons/javascript.png">
-            <img src="@/assets/icons/java.png">
-            <img src="@/assets/icons/html.png">
-            <img src="@/assets/icons/figma.png">
-            <img src="@/assets/icons/vue.png">
-            <img src="@/assets/icons/vscode.png">
-            <img src="@/assets/icons/css.png">
-            <img src="@/assets/icons/pgadmin.png">
-            <p class="card-text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, aliquid, repellendus 
-              repudiandae corporis inventore ut recusandae vitae eaque reiciendis ipsam non esse officiis vel ab incidunt? 
-              Praesentium minima commodi accusamus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, aliquid, repellendus 
-              repudiandae corporis inventore ut recusandae vitae eaque reiciendis ipsam non esse officiis vel ab incidunt? 
-              Praesentium minima commodi accusamus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, aliquid, repellendus 
-              repudiandae corporis inventore ut recusandae</p>
-            <a href="https://github.com/ATaylorN/capstone3_mealplanner" class="btn">View Project</a>
+            <a href="https://github.com/ATaylorN/Data-Visualizations-in-Excel"><h4 class="card-title">Data Visualization in Excel</h4></a>
+            <img src="@/assets/icons/excel.png">
+            <p class="card-text"> Reformated the data in the Excel columns so that they were more readable. For example, 
+              changing 'M' and 'S' to 'Married' and 'Single' so that you don't have to guess what the single letters 
+              stand for. Used the information to create pivot tables and then used those pivot tables to create a 
+              dashboard with filters.</p>
+            <a href="https://github.com/ATaylorN/Data-Visualizations-in-Excel" class="btn">View Project</a>
             </div>
-        </div> -->
-<!-- SQL Data Cleaning -->
-        <!-- <div class="card" style="width: 600px">
-            <img class="card-img-top" style="height: 300px" src="@/assets/coding/landing-page.png" alt="Flash Cards">
+        </div>
+<!-- SQL Data Exploration-->
+        <div class="card" style="width: 600px">
+            <img class="card-img-top" src="@/assets/data/sql.jpg" alt="Dashboard in Excel">
             <div class="card-body">
-            <a href="https://github.com/ATaylorN/flashcards"><h4 class="card-title">SQL Data Cleaning</h4></a>
-            <img src="@/assets/icons/bootstrap.png">
-            <img src="@/assets/icons/intellij.png">
-            <img src="@/assets/icons/javascript.png">
-            <img src="@/assets/icons/java.png">
-            <img src="@/assets/icons/html.png">
-            <img src="@/assets/icons/figma.png">
-            <img src="@/assets/icons/vue.png">
-            <img src="@/assets/icons/vscode.png">
-            <img src="@/assets/icons/css.png">
-            <img src="@/assets/icons/pgadmin.png">
-            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, aliquid, repellendus 
-              repudiandae corporis inventore ut recusandae vitae eaque reiciendis ipsam non esse officiis vel ab incidunt? 
-              Praesentium minima commodi accusamus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, aliquid, repellendus 
-              repudiandae corporis inventore ut recusandae vitae eaque reiciendis ipsam non esse officiis vel ab incidunt? 
-              Praesentium minima commodi accusamus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, aliquid, repellendus 
-              repudiandae corporis inventore ut recusandae</p>
-            <a href="https://github.com/ATaylorN/flashcards" class="btn">View Project</a>
+            <a href="https://github.com/ATaylorN/SQL-Data-Exploration"><h4 class="card-title">SQL: Data Cleaning and Exploration</h4></a>
+            <img src="@/assets/icons/sql.png">
+            <img src="@/assets/icons/excel.png">
+            <p class="card-text">Used SQL to analyze Covid data. Looked at things like countries with the highest 
+              rates of infection per population, countries with the highest death count per population, and 
+              continents with the highest death count per population.</p>
+            <a href="https://github.com/ATaylorN/SQL-Data-Exploration" class="btn">View Project</a>
             </div>
-        </div> -->
-<!-- Tableau Data Visualizations -->
-          <!-- <div class="card" style="width: 600px">
-            <img class="card-img-top" style="height: 300px" src="@/assets/coding/portfolio.jpg" alt="Portfolio Site">
-            <div class="card-body">
-            <a href="https://github.com/ATaylorN/Portfolio2024/tree/main/portfolio2024"><h4 class="card-title">Tableau Data Visualizations</h4></a>
-            <img src="@/assets/icons/bootstrap.png">
-            <img src="@/assets/icons/javascript.png">
-            <img src="@/assets/icons/html.png">
-            <img src="@/assets/icons/figma.png">
-            <img src="@/assets/icons/vue.png">
-            <img src="@/assets/icons/css.png">
-            <p class="card-text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, aliquid, repellendus 
-              repudiandae corporis inventore ut recusandae vitae eaque reiciendis ipsam non esse officiis vel ab incidunt? 
-              Praesentium minima commodi accusamus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, aliquid, repellendus 
-              repudiandae corporis inventore ut recusandae vitae eaque reiciendis ipsam non esse officiis vel ab incidunt? 
-              Praesentium minima commodi accusamus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, aliquid, repellendus 
-              repudiandae corporis inventore ut recusandae</p>
-            <a href="https://github.com/ATaylorN/Portfolio2024/tree/main/portfolio2024" class="btn">View Project</a>
-            </div>
-        </div> -->
-<!-- PowerBi Visualizations -->
-        <!-- <div class="card" style="width: 600px">
+        </div>
+<!-- BMI Calculator -->
+        <div class="card" style="width: 600px">
             <img class="card-img-top" style="height: 300px" src="@/assets/coding/library.png" alt="Library">
             <div class="card-body">
-            <a href="https://github.com/ATaylorN/library_side_project"><h4 class="card-title">PowerBi Visualizations</h4></a>
-            <img src="@/assets/icons/bootstrap.png">
-            <img src="@/assets/icons/intellij.png">
-            <img src="@/assets/icons/javascript.png">
-            <img src="@/assets/icons/java.png">
-            <img src="@/assets/icons/html.png">
-            <img src="@/assets/icons/figma.png">
-            <img src="@/assets/icons/vue.png">
-            <img src="@/assets/icons/vscode.png">
-            <img src="@/assets/icons/css.png">
-            <img src="@/assets/icons/pgadmin.png">
-            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, aliquid, repellendus 
-              repudiandae corporis inventore ut recusandae vitae eaque reiciendis ipsam non esse officiis vel ab incidunt? 
-              Praesentium minima commodi accusamus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, aliquid, repellendus 
-              repudiandae corporis inventore ut recusandae vitae eaque reiciendis ipsam non esse officiis vel ab incidunt? 
-              Praesentium minima commodi accusamus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, aliquid, repellendus 
-              repudiandae corporis inventore ut recusandae</p>
-            <a href="https://github.com/ATaylorN/library_side_project" class="btn">View Project</a>
+            <a href="https://github.com/ATaylorN/Python-Lessons"><h4 class="card-title">Python: BMI Calculator</h4></a>
+            <img src="@/assets/icons/jupyter.png">
+            <img src="@/assets/icons/python.png">
+            <img src="@/assets/icons/anaconda.png">
+            <p class="card-text">Your standard body mass index (BMI) calculator written in Python. It'll prompt 
+              the user their name, weight in pounds, and height in inches, and then let you know what category 
+              you fall in.</p>
+            <a href="https://github.com/ATaylorN/Python-Lessons" class="btn">View Project</a>
             </div>
-        </div> -->
-<!-- Python BMI Calculator -->
-        <!-- <div class="card" style="width: 600px">
-            <img class="card-img-top" style="height: 300px" src="@/assets/coding/library.png" alt="Library">
-            <div class="card-body">
-            <a href="https://github.com/ATaylorN/library_side_project"><h4 class="card-title">Python BMI Calculator</h4></a>
-            <img src="@/assets/icons/bootstrap.png">
-            <img src="@/assets/icons/intellij.png">
-            <img src="@/assets/icons/javascript.png">
-            <img src="@/assets/icons/java.png">
-            <img src="@/assets/icons/html.png">
-            <img src="@/assets/icons/figma.png">
-            <img src="@/assets/icons/vue.png">
-            <img src="@/assets/icons/vscode.png">
-            <img src="@/assets/icons/css.png">
-            <img src="@/assets/icons/pgadmin.png">
-            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, aliquid, repellendus 
-              repudiandae corporis inventore ut recusandae vitae eaque reiciendis ipsam non esse officiis vel ab incidunt? 
-              Praesentium minima commodi accusamus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, aliquid, repellendus 
-              repudiandae corporis inventore ut recusandae vitae eaque reiciendis ipsam non esse officiis vel ab incidunt? 
-              Praesentium minima commodi accusamus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, aliquid, repellendus 
-              repudiandae corporis inventore ut recusandae</p>
-            <a href="https://github.com/ATaylorN/library_side_project" class="btn">View Project</a>
-            </div>
-        </div> -->
+        </div>
 <!-- Python Automated File Sorter -->
-        <!-- <div class="card" style="width: 600px">
+        <div class="card" style="width: 600px">
             <img class="card-img-top" style="height: 300px" src="@/assets/coding/library.png" alt="Library">
             <div class="card-body">
-            <a href="https://github.com/ATaylorN/library_side_project"><h4 class="card-title">Python Automated File Sorter</h4></a>
-            <img src="@/assets/icons/bootstrap.png">
-            <img src="@/assets/icons/intellij.png">
-            <img src="@/assets/icons/javascript.png">
-            <img src="@/assets/icons/java.png">
-            <img src="@/assets/icons/html.png">
-            <img src="@/assets/icons/figma.png">
-            <img src="@/assets/icons/vue.png">
-            <img src="@/assets/icons/vscode.png">
-            <img src="@/assets/icons/css.png">
-            <img src="@/assets/icons/pgadmin.png">
-            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, aliquid, repellendus 
-              repudiandae corporis inventore ut recusandae vitae eaque reiciendis ipsam non esse officiis vel ab incidunt? 
-              Praesentium minima commodi accusamus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, aliquid, repellendus 
-              repudiandae corporis inventore ut recusandae vitae eaque reiciendis ipsam non esse officiis vel ab incidunt? 
-              Praesentium minima commodi accusamus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, aliquid, repellendus 
-              repudiandae corporis inventore ut recusandae</p>
-            <a href="https://github.com/ATaylorN/library_side_project" class="btn">View Project</a>
+            <a href="https://github.com/ATaylorN/Python-Lessons"><h4 class="card-title">Python: Automatic File Sorter</h4></a>
+            <img src="@/assets/icons/anaconda.png">
+            <img src="@/assets/icons/python.png">
+            <img src="@/assets/icons/jupyter.png">
+            <p class="card-text">Input your file path and it will create a seperate folder for png, 
+              csv, and text files and then seperate those files into their respective folders.</p>
+            <a href="https://github.com/ATaylorN/Python-Lessons" class="btn">View Project</a>
             </div>
-        </div> -->
+        </div>
 <!-- Python Web Scraping: Amazon -->
-          <!-- <div class="card" style="width: 600px">
+          <div class="card" style="width: 600px">
             <img class="card-img-top" style="height: 300px" src="@/assets/coding/library.png" alt="Library">
             <div class="card-body">
-            <a href="https://github.com/ATaylorN/library_side_project"><h4 class="card-title">Python Web Scraping: Amazon</h4></a>
-            <img src="@/assets/icons/bootstrap.png">
-            <img src="@/assets/icons/intellij.png">
-            <img src="@/assets/icons/javascript.png">
-            <img src="@/assets/icons/java.png">
-            <img src="@/assets/icons/html.png">
-            <img src="@/assets/icons/figma.png">
-            <img src="@/assets/icons/vue.png">
-            <img src="@/assets/icons/vscode.png">
-            <img src="@/assets/icons/css.png">
-            <img src="@/assets/icons/pgadmin.png">
-            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, aliquid, repellendus 
-              repudiandae corporis inventore ut recusandae vitae eaque reiciendis ipsam non esse officiis vel ab incidunt? 
-              Praesentium minima commodi accusamus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, aliquid, repellendus 
-              repudiandae corporis inventore ut recusandae vitae eaque reiciendis ipsam non esse officiis vel ab incidunt? 
-              Praesentium minima commodi accusamus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, aliquid, repellendus 
-              repudiandae corporis inventore ut recusandae</p>
-            <a href="https://github.com/ATaylorN/library_side_project" class="btn">View Project</a>
+            <a href="https://github.com/ATaylorN/Python-Lessons"><h4 class="card-title">Python Web Scraping: Amazon</h4></a>
+            <img src="@/assets/icons/anaconda.png">
+            <img src="@/assets/icons/python.png">
+            <img src="@/assets/icons/jupyter.png">
+            <img src="@/assets/icons/excel.png">
+            <p class="card-text">Built a web scraper using Python in Jupyter Notebook that checks on a "Got Data?" 
+              t-shirt that is for sale on Amazon. It pulls the title, price, rating, and description information, 
+              formats the information to make it more readable, and logs the data in a csv file (creating the csv 
+              file if it doesn't already exist). I set it up to automatically pull the data once a day and append 
+              it to the csv file. There's also code to send an email if the t-shirt's price drops below $14.00.</p>
+            <a href="https://github.com/ATaylorN/Python-Lessons" class="btn">View Project</a>
             </div>
-        </div> -->
-<!-- Python Automated Website Pulls -->
-      <!-- <div class="card" style="width: 600px">
+        </div>
+<!-- Crypto Currency API & Visualization -->
+      <div class="card" style="width: 600px">
             <img class="card-img-top" style="height: 300px" src="@/assets/coding/library.png" alt="Library">
             <div class="card-body">
-            <a href="https://github.com/ATaylorN/library_side_project"><h4 class="card-title">Python Automated Website Pulls</h4></a>
-            <img src="@/assets/icons/bootstrap.png">
-            <img src="@/assets/icons/intellij.png">
-            <img src="@/assets/icons/javascript.png">
-            <img src="@/assets/icons/java.png">
-            <img src="@/assets/icons/html.png">
-            <img src="@/assets/icons/figma.png">
-            <img src="@/assets/icons/vue.png">
-            <img src="@/assets/icons/vscode.png">
-            <img src="@/assets/icons/css.png">
-            <img src="@/assets/icons/pgadmin.png">
-            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, aliquid, repellendus 
-              repudiandae corporis inventore ut recusandae vitae eaque reiciendis ipsam non esse officiis vel ab incidunt? 
-              Praesentium minima commodi accusamus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, aliquid, repellendus 
-              repudiandae corporis inventore ut recusandae vitae eaque reiciendis ipsam non esse officiis vel ab incidunt? 
-              Praesentium minima commodi accusamus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, aliquid, repellendus 
-              repudiandae corporis inventore ut recusandae</p>
-            <a href="https://github.com/ATaylorN/library_side_project" class="btn">View Project</a>
+            <a href="https://github.com/ATaylorN/Python-Lessons"><h4 class="card-title">Python: Crypto Currency API</h4></a>
+            <img src="@/assets/icons/anaconda.png">
+            <img src="@/assets/icons/python.png">
+            <img src="@/assets/icons/jupyter.png">
+            <img src="@/assets/icons/excel.png">
+            <p class="card-text">Pulls information from a crypto currency API and stores it in a dataframe using 
+              Pandas and Python. Set it collect the data once every minute and then append the data to the dataframe. 
+              Then worked on cleaning the data and making it more readable and eventually putting the data into charts.</p>
+            <a href="https://github.com/ATaylorN/Python-Lessons" class="btn">View Project</a>
             </div>
-        </div> -->
+        </div>
 
     </section>
   </section>
