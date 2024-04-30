@@ -129,14 +129,17 @@
       <div class="card-body">
         <div class="tools">
             <h4>Tools:</h4>
+              <img src="@/assets/icons/anaconda.png" alt="Anaconda icon">
+              <img src="@/assets/icons/python.png" alt="Python programming language icon">
+              <img src="@/assets/icons/jupyter.png" alt="Jupyter Notebooks icon">
               <img src="@/assets/icons/sql.png" alt="SQL icon">
               <img src="@/assets/icons/excel.png" alt="Microsoft Excel logo">
           </div>
           <div class="desc">
-          <p>Currently still being built, but a section to showcase projects where I've gone through large data sets,
+          <p>Projects where I've gone through large data sets,
             formatted the data so that it was consistent and easier to manipulate, and ran multiple SQL queries to 
-            analyze the data. I'm also currently working on projects where I utilize Tableau to build visualizations
-            and Python to pull data from external websites. </p>
+            analyze the data. Also used Python to build projects including a BMI calculator, automatic file sorter,
+            and web scrapers. </p>
           <a href="data-analytics"><button>View More</button></a>
           </div>
           <div class="photo">
