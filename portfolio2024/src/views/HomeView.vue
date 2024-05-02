@@ -50,12 +50,10 @@
       <div class="list">
         <ul>
         <li>Java</li>
-        <li>Python</li>
         <li>HTML</li>
         <li>CSS</li>
-        <li>Bootstrap</li>
         <li>JavaScript</li>
-        <li>Vue.js</li>
+        <li>Responsive Web Design</li>
         <li>Integration Testing (Postman)</li>
         </ul>
         
@@ -64,23 +62,23 @@
       <div class="list">
         <ul>
         <li>Git</li>
-        <li>PowerBi</li>
-        <li>IntelliJ</li>
-        <li>Figma</li>
         <li>PostgreSQL</li>
-        <li>Unit Testing (JUnit)</li>
         <li>E/R Diagrams</li>
         <li>SpringBoot</li>
+        <li>Bootstrap</li>
+        <li>Microsoft Excel</li>
+        <li>Agile Methodologies</li>
         </ul>
       </div>
 
       <div class="list2">
         <ul>
-        <li>Tableau</li>
-        <li>Agile Methodologies</li>
-        <li>Microsoft Excel</li>
+        <li>Vue.js</li>
+        <li>Python</li>
+        <li>Figma</li>
+        <li>IntelliJ</li>
         <li>Data Analytics</li>
-        <li>Responsive Web Design</li>
+        <li>Unit Testing (JUnit)</li>
         </ul>
       </div>
       </div>
