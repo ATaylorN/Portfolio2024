@@ -9,13 +9,88 @@
             <a href="#blogEntry1"><li>Weekly Recap: WordPress</li></a>
             <a href="#blogEntry2"><li>Weekly Recap: Recovery</li></a>
             <a href="#blogEntry3"><li>Weekly Recap: Portfolio</li></a>
+            <a href="#blogEntry4"><li>Weekly Recap: March</li></a>
+            <a href="#blogEntry5"><li>Quick Update: April</li></a>
+            <a href="#blogEntry6"><li>Currently Reading</li></a>
             <a href="#resources"><li>Resources</li></a>
         </ul>
     </nav> 
 
     <section class="posts">
 
-    <article id="blogEntry3" class="slide-in-left">
+    <article id="blogEntry6" class="slide-in-left">
+        <h4>April 26th, 2024</h4>
+        <h2>Currently Reading: The Imposter's Handbook</h2>
+        <p>Finally getting around to reading this!<br>
+
+        <br>
+        I’ve just started, but I’ve found that the way the author writes
+         makes it easier to understand really complex concepts. <br>
+        <br>
+        <img src="../assets/posts/impostersbook.jpeg" alt="Book called 'The Imposter's Handbook: A CS Primer for Self-taught Programmers">
+        </p>
+    </article>
+
+    <article id="blogEntry5">
+        <h4>April 19th, 2024</h4>
+        <h2>A Quick Update:</h2>
+        <p>A quick update on what I've been up to so far this month:<br>
+
+        <br>
+        📚 LinkedIn Learning:<br>
+        <br>
+        ✅Introduction to Graphic Design: Photoshop, Illustrator, and InDesign<br>
+        ✅Learning SOLID Programming Principles<br>
+        
+        <br>
+        In addition to that, I have been attending Tech Elevator's alumni support sessions. 
+        I sat in all week on their reviews on unit testing, integration testing, and test-driven 
+        development, as well as last week's reviews on front end, Vue.js, and Vue 3 more specifically.  <br>
+
+        <br>
+        📓 I have also been making the most of the great weather to attend a variety of tech-related 
+        events in Columbus. On the 10th, I went to a 'Tips for New/Junior Developers!' event, 
+        where I received a lot of great advice on breaking into the tech field and how to be a successful developer.  <br>
+        
+        <br>
+        🍻 On the 15th, I attended Tech Takeover hosted by TechLife Columbus at Fado in Dublin, where I had 
+        the opportunity to catch up with people I hadn't seen in a while as well as meet new people who have 
+        been incredibly supportive. The following day, I went to FreeCodeCamp Columbus' workshop on Open 
+        Source Discovery, where I learned a lot about git, pull requests, branches vs forks, 
+        and all sorts of cool things you can do with open source.   <br>
+
+        <br>
+        📖 Finally, I attended Frontend Columbus' meetup on the 18th, where I learned all about 
+        HTMX as well as things like HATEOAS, hyperview, and hyperscript. These events
+         have been a great opportunity to learn, and I've found them truly inspiring while meeting a 
+         lot of cool people along the way! I really appreciate everyone being so welcoming and their 
+         willingness to teach someone who's still rather new to the field!  <br>
+        </p>
+    </article>
+
+    <article id="blogEntry4">
+        <h4>March 8th, 2024</h4>
+        <h2>Weekly Recap (3/3/24 - 3/9/24):</h2>
+        <p>📚 The LinkedIn Learning courses that I took included:<br>
+
+        <br>
+        ✅JavaScript Essential Training<br>
+        ✅Building a Small Business Website w/Open Source WordPress<br>
+        ✅WordPress 5 Essential Training: Site Administration<br>
+        ✅Using WordPress to Create a Blog for Creators<br>
+        
+        <br>
+        I also sat in on a couple Tech Elevator alumni review classes, 
+        where we played around with the Pokémon API to create a full-stack application. <br>
+
+        <br>
+        💻 Projects included fixing some minor bugs to my portfolio site. On that note, 
+        thanks again to everyone who helped me find said bugs! Please feel free to keep 
+        playing around with it and giving me your feedback! <br>
+        </p>
+    </article>
+
+    <article id="blogEntry3">
         <h4>March 1st, 2024</h4>
         <h2>Weekly Recap (2/25/24 - 3/2/24): WordPress</h2>
         <p>📚 This week was all about learning, so I spent most of my time on LinkedIn Learning courses:<br>
@@ -250,6 +325,10 @@ export default {
 </script>
 
 <style scoped>
+#blogEntry6 img{
+    max-width: 500px;
+    border-radius: 8px;
+}
 #portfolio img{
     margin: 2rem;
     max-height: 600px;
